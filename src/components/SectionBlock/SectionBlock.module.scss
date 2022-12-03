@@ -1,0 +1,27 @@
+.wrapper {
+  padding: 5rem 1rem;
+  .sectionTitle {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+    color: #023047;
+
+    h1 {
+      margin-bottom: 10px;
+    }
+  }
+
+  .body {
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    .icon {
+      font-size: 5rem;
+      margin-bottom: 2rem;
+    }
+  }
+}

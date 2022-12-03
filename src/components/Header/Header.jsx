@@ -2,7 +2,6 @@ import React from "react";
 import style from "./Header.module.scss";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
-import uzbekLogo from "../../images/logo-uzbekturizm-removebg-preview.png";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import EmailIcon from "@mui/icons-material/Email";
@@ -16,7 +15,6 @@ const Header = () => {
       <div className={style.headerOverlay}>
         <nav>
           <h1>AntiqueTravel</h1>
-          <img className={style.uzbekLogo} src={uzbekLogo} alt="" />
           <div className={style.contactInfo}>
             <p>
               <span>
@@ -67,6 +65,7 @@ const Header = () => {
         autoPlay={true}
         showArrows={false}
         showStatus={false}
+        interval={3000}
         dynamicHeight={100}
       >
         <div className={style.carousel}>
