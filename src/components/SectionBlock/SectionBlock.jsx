@@ -17,6 +17,10 @@ const SectionBlock = () => {
       title: "About Uzbekistan",
     },
     {
+      icon: <AvTimerIcon className={style.icon} />,
+      title: "Uzbekistan History",
+    },
+    {
       icon: <DiamondIcon className={style.icon} />,
       title: "Applied Art",
     },
@@ -32,10 +36,7 @@ const SectionBlock = () => {
       icon: <Brightness4Icon className={style.icon} />,
       title: "Culture and Tradition",
     },
-    {
-      icon: <AvTimerIcon className={style.icon} />,
-      title: "Uzbekistan History",
-    },
+
     {
       icon: <AssignmentIndIcon className={style.icon} />,
       title: "Visa",
