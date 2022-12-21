@@ -13,9 +13,10 @@ function App() {
       <Header />
       <Nav1 />
       <Cities />
-      <SectionBlock />
-      <VideoSection />
       <UsefulLinks />
+      <VideoSection />
+      <SectionBlock />
+
       <Footer />
     </div>
   );
