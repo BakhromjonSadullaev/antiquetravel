@@ -8,13 +8,14 @@ import EmailIcon from "@mui/icons-material/Email";
 import TelegramIcon from "@mui/icons-material/Telegram";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import navLogo from "../../images/logo.png";
 
 const Header = () => {
   return (
     <div className={style.body}>
       <div className={style.headerOverlay}>
         <nav>
-          <h1>AntiqueTravel</h1>
+          <img src={navLogo} alt="" />
           <div className={style.contactInfo}>
             <p>
               <span>

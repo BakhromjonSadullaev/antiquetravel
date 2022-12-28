@@ -17,7 +17,6 @@ const Cities = () => {
         transitionTime={500}
         swipeScrollTolerance={6}
         animationHandler="fade"
-        dynamicHeight={true}
         stopOnHover={true}
       >
         <div className={style.cityCarousel}>
