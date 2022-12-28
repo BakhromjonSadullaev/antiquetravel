@@ -1,12 +1,18 @@
 .wrapper {
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: space-between;
   padding: 4rem 1rem;
   background-color: #023047;
   color: white;
-
+  img {
+    max-width: 300px;
+  }
+  div {
+    h1 {
+      text-align: center;
+    }
+  }
   ul > li {
     list-style: none;
     font-size: 25px;
@@ -19,9 +25,8 @@
   }
   p {
     margin: 5px 0;
-    display: flex;
-    align-items: center;
     gap: 5px;
+    text-align: center;
     &:last-child {
       margin-top: 3rem;
     }
@@ -32,6 +37,10 @@
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
+    margin-top: 2rem;
+    .social {
+      font-size: 2rem;
+    }
   }
   @media (max-width: 800px) {
     flex-direction: column;
