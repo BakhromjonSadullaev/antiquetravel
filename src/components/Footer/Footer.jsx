@@ -10,6 +10,10 @@ const Footer = () => {
   return (
     <div className={style.wrapper}>
       <div>
+        <img src="src\images\logo-uzbekturizm-removebg-preview.png" alt="" />
+      </div>
+
+      <div>
         <h1>Contact Us</h1>
         <ul>
           <li>
@@ -22,6 +26,9 @@ const Footer = () => {
             <GoLocation /> Uzbekistan, Bukhara, 200100, Center-05-05
           </li>
         </ul>
+      </div>
+      <div>
+        <img src="src\images\logo-uzbekturizm-removebg-preview.png" alt="" />
       </div>
       <p>Copyright © 2018-2022 National PR-centre</p>
     </div>
