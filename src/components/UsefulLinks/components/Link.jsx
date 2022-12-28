@@ -1,14 +1,14 @@
 import React from "react";
 import style from "./Link.module.scss";
 
-const Link = ({ icon, title }) => {
+const Link = ({ icon, title, link }) => {
   return (
-    <div className={style.body}>
+    <a href={link} className={style.body}>
       <div className={style.container}>
         {icon}
         <h3>{title}</h3>
       </div>
-    </div>
+    </a>
   );
 };
 

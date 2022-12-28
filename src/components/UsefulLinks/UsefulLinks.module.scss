@@ -1,7 +1,9 @@
 .body {
   padding: 6rem 1rem;
   background-image: url(http://uztravel.com/images/body-bg.gif);
-
+  a {
+    text-decoration: none;
+  }
   .linkHeader {
     display: flex;
     align-items: center;
