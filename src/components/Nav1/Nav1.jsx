@@ -22,34 +22,9 @@ const Nav1 = () => {
           <li>Photo Gallery</li>
         </ul>
         <div className={style.lang}>
-          <p>
-            {" "}
-            <img
-              src="https://flagcdn.com/w20/us.png"
-              srcset="https://flagcdn.com/w40/us.png 2x"
-              width="20"
-              alt="United States"
-            />
-            Eng
-          </p>
-          <p>
-            <img
-              src="https://flagcdn.com/w20/ru.png"
-              srcset="https://flagcdn.com/w40/ru.png 2x"
-              width="20"
-              alt="Russia"
-            />
-            Rus
-          </p>
-          <p>
-            <img
-              src="https://flagcdn.com/w20/de.png"
-              srcset="https://flagcdn.com/w40/de.png 2x"
-              width="20"
-              alt="Germany"
-            />
-            Ger
-          </p>
+          <p>Eng</p>
+          <p>Rus</p>
+          <p>Ger</p>
         </div>
 
         <div
