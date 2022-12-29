@@ -245,12 +245,14 @@
       }
     }
     .faq18 {
+      display: flex;
+      flex-direction: column;
       p {
         margin: 10px 0;
       }
       img {
         max-width: 400px;
-        margin-left: 32rem;
+        align-self: flex-end;
       }
     }
     .faq19 {
@@ -376,6 +378,9 @@
       margin: 1rem 2rem 1rem 0;
     }
     .faq17 > img {
+      width: 100%;
+    }
+    .faq18 > img {
       width: 100%;
     }
     .faq19 > img {

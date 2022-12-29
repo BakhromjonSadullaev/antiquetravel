@@ -15,10 +15,14 @@ const Nav1 = () => {
           <li>About Us</li>
           <li>Tours</li>
           <li>Hotels</li>
-          <li>Transportation</li>
-          <li>Destination</li>
-          <li>Services</li>
-          <li>Staff</li>
+          <a href="#transportation">
+            {" "}
+            <li>Transportation</li>
+          </a>
+          <a href="#service">
+            {" "}
+            <li>Services</li>
+          </a>
           <li>Photo Gallery</li>
         </ul>
         <div className={style.lang}>

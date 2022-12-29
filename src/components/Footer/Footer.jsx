@@ -23,7 +23,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <p>Copyright © 2018-2022 National PR-centre</p>
+      <p>Copyright © 2022 Developed By INDEX TEAM</p>
     </div>
   );
 };

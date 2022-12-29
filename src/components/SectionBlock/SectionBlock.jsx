@@ -28,7 +28,7 @@ export default function SimpleAccordion() {
   return (
     <div className={style.wrapper}>
       <h1>Useful information</h1>
-      <Accordion className={style.accordion}>
+      <Accordion id="service" className={style.accordion}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
@@ -198,7 +198,7 @@ export default function SimpleAccordion() {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion className={style.accordion}>
+      <Accordion id="transportation" className={style.accordion}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2a-content"
