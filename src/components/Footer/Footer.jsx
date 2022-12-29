@@ -6,13 +6,11 @@ import { GoLocation } from "react-icons/go";
 import TelegramIcon from "@mui/icons-material/Telegram";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import FooterLogo from "../../images/logo.png";
 const Footer = () => {
   return (
     <div className={style.wrapper}>
-      <img
-        src="http://localhost:3001/static/media/logo.92fcf75e4e47e1ec220c.png"
-        alt=""
-      />
+      <img src={FooterLogo} alt="" />
       <div>
         <h1>Contact Us</h1>
         <ul>

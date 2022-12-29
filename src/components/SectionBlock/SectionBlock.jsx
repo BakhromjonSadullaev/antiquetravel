@@ -510,14 +510,16 @@ export default function SimpleAccordion() {
                 src="https://uzbekistan.travel/storage/app/media/uploaded-files/11.jpg"
                 alt=""
               />
-              <p>
-                Do you want to get a visa to Uzbekistan? Now it's much easier.
-                All you need is an Internet connection and a passport. You can
-                apply for an electronic tourist visa to Uzbekistan through the
-                web-site <a href="">e-visa.gov.uz</a>. And, if your country is
-                listed among 86 visa-free nations, then just buy tickets, pack
-                your bags and Welcome to Uzbekistan!
-              </p>
+              <div>
+                <p>
+                  Do you want to get a visa to Uzbekistan? Now it's much easier.
+                  All you need is an Internet connection and a passport. You can
+                  apply for an electronic tourist visa to Uzbekistan through the
+                  web-site <a href="">e-visa.gov.uz</a>. And, if your country is
+                  listed among 86 visa-free nations, then just buy tickets, pack
+                  your bags and Welcome to Uzbekistan!
+                </p>
+              </div>
             </div>
             <div className={style.links}>
               <a href="">Visa-free regime</a>
@@ -997,27 +999,29 @@ export default function SimpleAccordion() {
               src="https://uzbekistan.travel/storage/app/media/uploaded-files/37.jpg"
               alt=""
             />
-            <p>
-              Since childhood we were taught to wash our hands before eating –
-              the most important rule of personal hygiene. During your stay in
-              Uzbekistan, you should follow the simplest hygiene rules: wash
-              your hands before eating, use wet wipes or hand sanitizers, use
-              the shower more often in hot weather, do not drink raw water,
-              especially from open reservoirs, do not consume untested food and
-              drinks, especially in exotic places.
-            </p>
-            <p>
-              Remember, people in Uzbekistan eat fat and high-calorie food since
-              childhood, and if you did not get used to eat such food, it can be
-              heavy for your stomach. Eat moderately and do not mix unsuitable
-              foods.
-            </p>
-            <p>
-              As summer in Uzbekistan is very hot, during the summer Chillya,
-              follow the appropriate precautions: do not walk around the city at
-              hot noon, wear hats and light and comfortable clothing and shoes,
-              consume as much water as possible to avoid dehydration.
-            </p>
+            <div>
+              <p>
+                Since childhood we were taught to wash our hands before eating –
+                the most important rule of personal hygiene. During your stay in
+                Uzbekistan, you should follow the simplest hygiene rules: wash
+                your hands before eating, use wet wipes or hand sanitizers, use
+                the shower more often in hot weather, do not drink raw water,
+                especially from open reservoirs, do not consume untested food
+                and drinks, especially in exotic places.
+              </p>
+              <p>
+                Remember, people in Uzbekistan eat fat and high-calorie food
+                since childhood, and if you did not get used to eat such food,
+                it can be heavy for your stomach. Eat moderately and do not mix
+                unsuitable foods.
+              </p>
+              <p>
+                As summer in Uzbekistan is very hot, during the summer Chillya,
+                follow the appropriate precautions: do not walk around the city
+                at hot noon, wear hats and light and comfortable clothing and
+                shoes, consume as much water as possible to avoid dehydration.
+              </p>
+            </div>
           </Typography>
         </AccordionDetails>
       </Accordion>
