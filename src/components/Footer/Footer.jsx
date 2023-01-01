@@ -6,13 +6,11 @@ import { GoLocation } from "react-icons/go";
 import TelegramIcon from "@mui/icons-material/Telegram";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import footerImg from "../../images/logo.png";
 const Footer = () => {
   return (
     <div className={style.wrapper}>
-      <img
-        src="http://localhost:3001/static/media/logo.92fcf75e4e47e1ec220c.png"
-        alt=""
-      />
+      <img src={footerImg} alt="" />
       <div>
         <h1>Contact Us</h1>
         <ul>
@@ -31,7 +29,7 @@ const Footer = () => {
           <WhatsAppIcon className={style.social} />
           <InstagramIcon className={style.social} />
         </div>
-        <p>Copyright © 2018-2022 National PR-centre</p>
+        <p>Copyright ©2022 Developed By INDEX Team</p>
       </div>
       <img
         src="https://api.uznews.uz/storage/uploads/posts/images/45848/inner/gq3WdeSD43.jpg"
