@@ -29,6 +29,24 @@ const Footer = () => {
           <WhatsAppIcon className={style.social} />
           <InstagramIcon className={style.social} />
         </div>
+        <div className={style.cards}>
+          <img
+            src="https://usa.visa.com/dam/VCOM/regional/ve/romania/blogs/hero-image/visa-logo-800x450.jpg"
+            alt=""
+          />
+          <img
+            src="https://icon-library.com/images/mastercard-icon-png/mastercard-icon-png-17.jpg"
+            alt=""
+          />
+          <img
+            src="https://kdb.uz/storage/cards/October2021/hNE9Tjbf0qf181qpgGah.jpg"
+            alt=""
+          />
+          <img
+            src="https://kdb.uz/storage/cards/October2021/jMrl5N5B9FAwoIwfSNtC.jpg"
+            alt=""
+          />
+        </div>
         <p>Copyright ©2022 Developed By INDEX Team</p>
       </div>
       <img
