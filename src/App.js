@@ -1,24 +1,12 @@
-import "./App.css";
-import Cities from "./components/Cities/Cities";
-import Footer from "./components/Footer/Footer";
-import Header from "./components/Header/Header";
-import Nav1 from "./components/Nav1/Nav1";
-import SectionBlock from "./components/SectionBlock/SectionBlock";
-import UsefulLinks from "./components/UsefulLinks/UsefulLinks";
-import VideoSection from "./components/VideoSection/VideoSection";
-
+import { Routes, Route } from "react-router-dom";
+import Main from "./Pages/Main";
+import Photo_Gallery from "./Pages/Photo_Gallery/Photo_Gallery";
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Nav1 />
-      <Cities />
-      <UsefulLinks />
-      <VideoSection />
-      <SectionBlock />
-
-      <Footer />
-    </div>
+    <Routes>
+      <Route path="/" element={<Main />} />
+      <Route path="Photo_Gallery" element={<Photo_Gallery />} />
+    </Routes>
   );
 }
 
