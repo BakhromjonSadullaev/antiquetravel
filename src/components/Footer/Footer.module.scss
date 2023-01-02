@@ -35,13 +35,13 @@
   .cards {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 1rem;
+    gap: 1rem;
     img {
-      width: 80px;
-      height: 50px;
+      width: 50px;
       object-fit: cover;
-      object-position: center;
+      object-position: center center;
     }
   }
 
