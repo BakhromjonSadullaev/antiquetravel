@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Main from "./Pages/Main";
-import Photo_Gallery from "./Pages/Photo_Gallery/Photo_Gallery";
+import Photo_Gallery from "./Pages/Photo_Gallery";
 function App() {
   return (
     <Routes>
