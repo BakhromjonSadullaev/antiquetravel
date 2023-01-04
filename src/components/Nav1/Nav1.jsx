@@ -19,7 +19,7 @@ const Nav1 = () => {
           <li>Destination</li>
           <li>Services</li>
           <li>Staff</li>
-          <Link to="Photo_Gallery">
+          <Link to="Photo_Gallery" className={style.gallery_link}>
             <li>Photo Gallery</li>
           </Link>
         </ul>
