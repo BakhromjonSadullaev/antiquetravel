@@ -1,11 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import style from "../Photos/Photos.module.scss";
 const Photos = () => {
   return (
     <div>
       <section className={style.wrapper}>
         <div className={style.image_slider}>
-          <h1>Города</h1>
+          <Link to={"cities_gallery"}>
+            <h1>Города</h1>
+          </Link>
           <div className={style.image_tracker}>
             <div className={style.slide}>
               <img
