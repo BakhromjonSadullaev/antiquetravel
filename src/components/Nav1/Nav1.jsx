@@ -14,14 +14,14 @@ const Nav1 = () => {
       <div className={style.container}>
         <ul>
           <li className={style.active}>{t("Home")}</li>
-          <li>About Us</li>
-          <li>Tours</li>
-          <li>Hotels</li>
-          <li>Transportation</li>
-          <li>Destination</li>
-          <li>Services</li>
-          <li>Staff</li>
-          <li>Photo Gallery</li>
+          <li>{t("AboutUs")}</li>
+          <li>{t("Tours")}</li>
+          <li>{t("Hotels")}</li>
+          <li>{t("Transportation")}</li>
+          <li>{t("Destination")}</li>
+          <li>{t("Services")}</li>
+          <li>{t("Staff")}</li>
+          <li>{t("PhotoGallery")}</li>
         </ul>
         <div className={style.lang}>
           <p onClick={() => i18n.changeLanguage("en")}>
