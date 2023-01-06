@@ -1,5 +1,6 @@
 import React from "react";
 import style from "../Photos/Photos.module.scss";
+
 const Photos = () => {
   return (
     <div>
