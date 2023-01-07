@@ -29,7 +29,7 @@ const Footer = () => {
           <WhatsAppIcon className={style.social} />
           <InstagramIcon className={style.social} />
         </div>
-        <p>Copyright © 2018-2022 National PR-centre</p>
+        <p>Copyright ©2022 Developed By INDEX Team</p>
       </div>
       <img
         src="https://api.uznews.uz/storage/uploads/posts/images/45848/inner/gq3WdeSD43.jpg"
