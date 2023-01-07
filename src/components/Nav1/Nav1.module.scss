@@ -28,7 +28,7 @@
         }
       }
 
-      @media (max-width: 800px) {
+      @media (max-width: 1150px) {
         display: none;
       }
     }
@@ -51,6 +51,10 @@
         }
       }
     }
+    .gallery_link {
+      text-decoration: none;
+      color: black;
+    }
 
     .menu {
       display: none;
@@ -62,12 +66,12 @@
         background-color: #e6e8e6;
       }
 
-      @media (max-width: 800px) {
+      @media (max-width: 1150px) {
         display: block;
       }
     }
 
-    @media (max-width: 800px) {
+    @media (max-width: 1150px) {
       justify-content: space-around;
     }
   }

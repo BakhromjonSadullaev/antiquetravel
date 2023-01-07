@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import style from "./Nav1.module.scss";
-
+import { Link } from "react-router-dom";
 import MenuIcon from "@mui/icons-material/Menu";
 import clsx from "clsx";
 
@@ -19,7 +19,9 @@ const Nav1 = () => {
           <li>Destination</li>
           <li>Services</li>
           <li>Staff</li>
-          <li>Photo Gallery</li>
+          <Link to="Photo_Gallery" className={style.gallery_link}>
+            <li>Photo Gallery</li>
+          </Link>
         </ul>
         <div className={style.lang}>
           <p>
