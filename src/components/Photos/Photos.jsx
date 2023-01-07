@@ -62,7 +62,10 @@ const Photos = () => {
           </div>
         </div>
         <div className={style.image_slider}>
-          <h1>Природа</h1>
+          <Link to={"green_gallery"}>
+            <h1>Природа</h1>
+          </Link>
+
           <div className={style.image_tracker}>
             <div className={style.slide}>
               <img
@@ -123,7 +126,9 @@ const Photos = () => {
       </section>
       <section className={style.wrapper}>
         <div className={style.image_slider}>
-          <h1>Культура</h1>
+          <Link to={"culture_gallery"}>
+            <h1>Культура</h1>
+          </Link>
           <div className={style.image_tracker}>
             <div className={style.slide}>
               <img
@@ -176,7 +181,10 @@ const Photos = () => {
           </div>
         </div>
         <div className={style.image_slider}>
-          <h1>Архитектура</h1>
+          <Link to={"architecture_gallery"}>
+            <h1>Архитектура</h1>
+          </Link>
+
           <div className={style.image_tracker}>
             <div className={style.slide}>
               <img
@@ -237,7 +245,9 @@ const Photos = () => {
       </section>
       <section className={style.wrapper}>
         <div className={style.image_slider}>
-          <h1>Люди</h1>
+          <Link to={"people_gallery"}>
+            <h1>Люди</h1>
+          </Link>
           <div className={style.image_tracker}>
             <div className={style.slide}>
               <img
@@ -285,7 +295,9 @@ const Photos = () => {
           </div>
         </div>
         <div className={style.image_slider}>
-          <h1>Еда</h1>
+          <Link to={"food_gallery"}>
+            <h1>Еда</h1>
+          </Link>
           <div className={style.image_tracker}>
             <div className={style.slide}>
               <img
@@ -346,7 +358,9 @@ const Photos = () => {
       </section>
       <section className={style.wrapper}>
         <div className={style.image_slider}>
-          <h1>Метро</h1>
+          <Link to={"metro_gallery"}>
+            <h1>Метро</h1>
+          </Link>
           <div className={style.image_tracker}>
             <div className={style.slide}>
               <img
@@ -394,7 +408,9 @@ const Photos = () => {
           </div>
         </div>
         <div className={style.image_slider}>
-          <h1>Искусство</h1>
+          <Link to={"art_gallery"}>
+            <h1>Искусство</h1>
+          </Link>
           <div className={style.image_tracker}>
             <div className={style.slide}>
               <img
@@ -455,7 +471,9 @@ const Photos = () => {
       </section>
       <section className={style.wrapper}>
         <div className={style.image_slider}>
-          <h1>Экстрим и спорт</h1>
+          <Link to={"sport_gallery"}>
+            <h1>Экстрим и спорт</h1>
+          </Link>
           <div className={style.image_tracker}>
             <div className={style.slide}>
               <img
@@ -503,7 +521,9 @@ const Photos = () => {
           </div>
         </div>
         <div className={style.image_slider}>
-          <h1>Загадки археологии</h1>
+          <Link to={"historical_gallery"}>
+            <h1>Загадки археологии</h1>
+          </Link>
           <div className={style.image_tracker}>
             <div className={style.slide}>
               <img
@@ -558,7 +578,9 @@ const Photos = () => {
       </section>
       <section className={style.wrapper}>
         <div className={style.image_slider}>
-          <h1>Объекты зиёрат-туризма</h1>
+          <Link to={"tourism_gallery"}>
+            <h1>Объекты зиёрат-туризма</h1>
+          </Link>
           <div className={style.image_tracker}>
             <div className={style.slide}>
               <img
