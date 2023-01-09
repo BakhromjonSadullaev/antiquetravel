@@ -23,11 +23,15 @@ import { BsCartFill } from "react-icons/bs";
 import { FaKey } from "react-icons/fa";
 import { MdCleanHands } from "react-icons/md";
 import { MdRule } from "react-icons/md";
+import { useTranslation, Trans } from "react-i18next";
 
 export default function SimpleAccordion() {
+  const { t } = useTranslation();
   return (
     <div className={style.wrapper}>
-      <h1>Useful information</h1>
+      <h1>
+        <Trans t={t}>usefulInformation</Trans>
+      </h1>
       <Accordion className={style.accordion}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
@@ -35,7 +39,10 @@ export default function SimpleAccordion() {
           id="panel1a-header"
         >
           <Typography className={style.question}>
-            <FaBarcode /> “Uzbekistan. Safe travel GUARANTEED”
+            <FaBarcode />
+            <p>
+              <Trans t={t}>faq1title</Trans>
+            </p>
           </Typography>
         </AccordionSummary>
         <AccordionDetails className={style.answer}>
@@ -46,28 +53,11 @@ export default function SimpleAccordion() {
                 alt=""
               />
               <p>
-                New times require new security solutions. The threat of the
-                spread of coronavirus continues to be relevant and negatively
-                affect physical and emotional health. Now, before any trip, the
-                traveler involuntarily thinks about precautions and sanitary
-                standards. How can we avoid the negative impact of the pandemic
-                and still maintain the desire to travel? There is a way out!
-                Namely, trust the professionals and special services responsible
-                for the safety of each tourist. For these purposes we have
-                developed a system of safe tourism "Uzbekistan. Safe travel
-                GUARANTEED", which complies with all sanitary standards that
-                meet international standards.
+                <Trans t={t}>faq1text1</Trans>
               </p>
             </div>
             <p className={style.newline}>
-              In fact, such a system implies strict compliance with sanitary and
-              hygienic measures to combat COVID-19 in Uzbekistan. All tourist
-              sites, related infrastructure, and public areas must obtain a
-              special permit or certificate to continue operating. These items
-              include: accommodation facilities (hotels, guest houses, hostels,
-              etc.), all state border points, air, railway and automobile
-              stations, objects of material cultural heritage, museums,
-              theaters, and other cultural objects
+              <Trans t={t}></Trans>
             </p>
             <p>
               What is included in the package of measures of the safe tourism

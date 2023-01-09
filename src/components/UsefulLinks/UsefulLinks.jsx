@@ -10,60 +10,63 @@ import AccountBalanceWalletIcon from "@mui/icons-material/AccountBalanceWallet";
 import DashboardIcon from "@mui/icons-material/Dashboard";
 import AssuredWorkloadIcon from "@mui/icons-material/AssuredWorkload";
 import DoorSlidingIcon from "@mui/icons-material/DoorSliding";
+import { useTranslation } from "react-i18next";
 
 const UsefulLinks = () => {
+  const { t } = useTranslation();
   const links = [
     {
       icon: <WbSunnyIcon className={style.icon} />,
-      title: "Weather",
+      title: t("Weather"),
       link: "https://www.gismeteo.ru/",
     },
     {
       icon: <HotelIcon className={style.icon} />,
-      title: "Hotel Booking",
+      title: t("HotelBooking"),
       link: "https://www.booking.com/searchresults.html?aid=100994&sid=f19086fdf868f8b68bbf49632d8c2fb5&sb=1&sb_lp=1&src=theme_landing_index&src_elem=sb&error_url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Findex.html%3Faid%3D100994%26sid%3Df19086fdf868f8b68bbf49632d8c2fb5%26&ss=tashkent&is_ski_area=0&checkin_year=&checkin_month=&checkout_year=&checkout_month=&group_adults=2&group_children=0&no_rooms=1&b_h4u_keep_filters=&from_sf=1",
     },
     {
       icon: <AccountBalanceIcon className={style.icon} />,
-      title: "Bank Rate",
+      title: t("BankRate"),
       link: "https://bank.uz/currency",
     },
     {
       icon: <CommuteIcon className={style.icon} />,
-      title: "Train Booking",
+      title: t("TrainBooking"),
       link: "https://railway.uz/ru/",
     },
     {
       icon: <AirplaneTicketIcon className={style.icon} />,
-      title: "Flight Booking",
+      title: t("FlightBooking"),
       link: "https://www.uzairways.com/ru?utm_source=yandex&utm_medium=cpc&utm_campaign=yandex_search&utm_content=uzairways&_openstat=ZGlyZWN0LnlhbmRleC5ydTs4MTQ4MjAyOTsxMzIyMDczMjYwMTt5YW5kZXgucnU6cHJlbWl1bQ&yclid=11640419960908152831",
     },
     {
       icon: <AccountBalanceWalletIcon className={style.icon} />,
-      title: "Online Payment",
+      title: t("OnlinePayment"),
       link: "https://bank.uz/currency",
     },
     {
       icon: <DashboardIcon className={style.icon} />,
-      title: "Portal of Uzbekistan",
+      title: t("PortalofUzbekistan"),
       link: "https://www.gov.uz/ru/",
     },
     {
       icon: <AssuredWorkloadIcon className={style.icon} />,
-      title: "Ministry of Foreign Affairs",
+      title: t("MinistryofForeignAffairs"),
       link: "https://www.mfa.uz/ru/",
     },
     {
       icon: <DoorSlidingIcon className={style.icon} />,
-      title: "Association of Private Tourism Agencies",
+      title: t("AssociationofPrivateTourismAgencies"),
       link: "http://apta.uz/",
     },
   ];
+
   return (
     <div className={style.body}>
       <div className={style.linkHeader}>
-        <h1>Useful Links</h1>
-        <p>Feel the safety and hospitality</p>
+        <h1>{t("UsefulLinks")}</h1>
+        <p>{t("infoUsefulLinks")}</p>
       </div>
       <div className={style.linkContainer}>
         {links.map((link) => (
