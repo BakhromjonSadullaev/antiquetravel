@@ -1,0 +1,22 @@
+.container {
+  main {
+    padding: 5rem 1rem;
+    display: flex;
+    img {
+      width: 800px;
+    }
+
+    .paymentContainer {
+      border: 1px solid red;
+
+      form {
+        display: grid;
+        grid-template-columns: auto auto;
+
+        input:first-child {
+          grid-column: 1/3;
+        }
+      }
+    }
+  }
+}
