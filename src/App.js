@@ -12,6 +12,7 @@ import ArtGallery from "./Pages/ArtGallery";
 import SportGallery from "./Pages/SportGallery";
 import HistoricalGallery from "./Pages/HistoricalGallery";
 import TourismGallery from "./Pages/TourismGallery";
+import Payment from "./Pages/Payment/Payment";
 function App() {
   return (
     <Routes>
@@ -32,6 +33,7 @@ function App() {
       <Route path="Photo_Gallery/metro_gallery" element={<MetroGallery />} />
       <Route path="Photo_Gallery/art_gallery" element={<ArtGallery />} />
       <Route path="Photo_Gallery/sport_gallery" element={<SportGallery />} />
+      <Route path="payment" element={<Payment />} />
       <Route
         path="Photo_Gallery/historical_gallery"
         element={<HistoricalGallery />}

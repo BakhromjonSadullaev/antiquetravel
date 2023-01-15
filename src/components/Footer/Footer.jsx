@@ -18,7 +18,8 @@ const Footer = () => {
             <FaPhoneAlt /> +99897 725-52-55 +99895 220-05-50
           </li>
           <li>
-            <RxEnvelopeClosed /> info@antiquetravel.com
+            <RxEnvelopeClosed />
+            info@antiquetravel.com
           </li>
           <li>
             <GoLocation /> Uzbekistan, Bukhara, 200100, Center-05-05
