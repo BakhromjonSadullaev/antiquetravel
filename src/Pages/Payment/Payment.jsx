@@ -2,10 +2,14 @@ import React from "react";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import style from "../Payment/Payment.module.scss";
-import Box from "@mui/material/Box";
-import Tab from "@mui/material/Tab";
-import TabPanel from "@mui/lab/TabPanel";
 import Tabs from "@mui/material/Tabs";
+import Tab from "@mui/material/Tab";
+import Typography from "@mui/material/Typography";
+import Box from "@mui/material/Box";
+import Nav1 from "../../components/Nav1/Nav1";
+import TextField from "@mui/material/TextField";
+import Button from "@mui/material/Button";
+import Stack from "@mui/material/Stack";
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
   return (
@@ -24,11 +28,7 @@ function TabPanel(props) {
     </div>
   );
 }
-TabPanel.propTypes = {
-  children: PropTypes.node,
-  index: PropTypes.number.isRequired,
-  value: PropTypes.number.isRequired,
-};
+
 const Payment = () => {
   const [value, setValue] = React.useState(0);
   const handleChange = (event, newValue) => {
@@ -37,18 +37,13 @@ const Payment = () => {
   return (
     <div className={style.container}>
       <Header />
+      <Nav1 />
       <main>
         <img
-          src="https://storage.kun.uz/source/thumbnails/_medium/4/S9cf3tp4Ylx1D-KhU1MronrAzpb36jr2_medium.jpg"
+          src="https://static.vecteezy.com/system/resources/thumbnails/007/118/548/original/payment-with-card-by-pos-terminal-4k-animation-payment-by-card-swipe-through-a-pos-terminal-payment-terminal-money-transaction-animation-paying-for-goods-ecommerce-card-swipe-payment-system-free-video.jpg"
           alt=""
         />
         <div className={style.paymentContainer}>
-          {/* <h2>Online payments built for success</h2>
-          <form>
-            <input type="number" placeholder="Card Number" />
-            <input type="text" placeholder="dd/mm" />
-            <input type="text" placeholder="CSC" />
-          </form> */}
           <Box sx={{ width: "100%" }}>
             <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
               <Tabs
@@ -56,19 +51,47 @@ const Payment = () => {
                 onChange={handleChange}
                 aria-label="basic tabs example"
               >
-                <Tab label="Item One" />
-                <Tab label="Item Two" />
-                <Tab label="Item Three" />
+                <Tab label="First Option" />
+                <Tab label="Second Option(Recommended)" />
               </Tabs>
             </Box>
             <TabPanel value={value} index={0}>
-              Item One
+              <h2>Online payments built for success</h2>
+              <form>
+                <TextField
+                  id="outlined-basic"
+                  label="Card Number"
+                  variant="outlined"
+                  className={style.third_input}
+                  placeholder="12345678123456"
+                />
+                <TextField
+                  id="outlined-basic"
+                  label="Expiration"
+                  variant="outlined"
+                  placeholder="12/19"
+                />
+                <TextField
+                  id="outlined-basic"
+                  label="CVV"
+                  variant="outlined"
+                  placeholder="CVV"
+                />
+              </form>
+
+              <Stack direction="column" spacing={1}>
+                <Button variant="contained">Visa</Button>
+                <Button variant="contained">Humo</Button>
+                <Button variant="contained">UzCard</Button>
+                <Button variant="contained">MasterCard</Button>
+              </Stack>
             </TabPanel>
             <TabPanel value={value} index={1}>
-              Item Two
-            </TabPanel>
-            <TabPanel value={value} index={2}>
-              Item Three
+              <h3>Card Number: 0104930234423</h3>
+              <p className={style.text_card}>send cheque account below!</p>
+              <Button variant="contained" className={style.btn_1}>
+                Contact me
+              </Button>
             </TabPanel>
           </Box>
         </div>
