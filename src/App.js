@@ -13,6 +13,7 @@ import SportGallery from "./Pages/SportGallery";
 import HistoricalGallery from "./Pages/HistoricalGallery";
 import TourismGallery from "./Pages/TourismGallery";
 import Payment from "./Pages/Payment/Payment";
+import AboutUs from "./components/AboutUs/AboutUs";
 function App() {
   return (
     <Routes>
@@ -42,6 +43,7 @@ function App() {
         path="Photo_Gallery/tourism_gallery"
         element={<TourismGallery />}
       />
+      <Route path="aboutUs" element={<AboutUs />} />
     </Routes>
   );
 }
