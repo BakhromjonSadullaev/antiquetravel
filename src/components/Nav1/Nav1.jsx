@@ -11,14 +11,14 @@ const Nav1 = () => {
     <div className={style.body}>
       <div className={style.container}>
         <ul>
-          <li className={style.active}>Home</li>
+          <Link to="/">
+            {" "}
+            <li className={style.active}>Home</li>
+          </Link>
           <li>About Us</li>
           <li>Tours</li>
           <li>Hotels</li>
           <li>Transportation</li>
-          <li>Destination</li>
-          <li>Services</li>
-          <li>Staff</li>
           <Link to="Photo_Gallery" className={style.gallery_link}>
             <li>Photo Gallery</li>
           </Link>
@@ -32,7 +32,7 @@ const Nav1 = () => {
               width="20"
               alt="United States"
             />
-            Eng
+            ENG
           </p>
           <p>
             <img
@@ -41,7 +41,7 @@ const Nav1 = () => {
               width="20"
               alt="Russia"
             />
-            Rus
+            RUS
           </p>
           <p>
             <img
@@ -50,7 +50,7 @@ const Nav1 = () => {
               width="20"
               alt="Germany"
             />
-            Ger
+            DE
           </p>
         </div>
 
@@ -74,9 +74,6 @@ const Nav1 = () => {
           <li>Tours</li>
           <li>Hotels</li>
           <li>Transportation</li>
-          <li>Destination</li>
-          <li>Services</li>
-          <li>Staff</li>
           <li>Photo Gallery</li>
         </ul>
       </div>

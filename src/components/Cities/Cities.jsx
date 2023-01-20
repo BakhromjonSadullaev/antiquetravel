@@ -28,7 +28,6 @@ const Cities = () => {
               Tashkent comes from the Turkic tash and kent, literally translated
               as "Stone City" or "City of Stones".
             </p>
-            <button>Explore Now</button>
           </div>
         </div>
         <div className={style.cityCarousel}>
@@ -39,7 +38,6 @@ const Cities = () => {
               Samarqand, is a city in southeastern Uzbekistan and among the
               oldest continuously inhabited cities in Central Asia.
             </p>
-            <button>Explore Now</button>
           </div>
         </div>
         <div className={style.cityCarousel}>
@@ -52,7 +50,6 @@ const Cities = () => {
               Central Asia, with an urban fabric that has remained largely
               intact.
             </p>
-            <button>Explore Now</button>
           </div>
         </div>
         <div className={style.cityCarousel}>

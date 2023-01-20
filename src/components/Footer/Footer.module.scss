@@ -3,9 +3,14 @@
   align-items: center;
   justify-content: space-around;
   padding: 4rem 1rem;
-  background-color: #023047eb;
+  background-color: #48cae4;
   color: white;
-
+  .ind {
+    margin-left: 42px;
+  }
+  .svguzb {
+    width: 600px;
+  }
   img {
     max-width: 300px;
   }
@@ -55,6 +60,13 @@
       font-size: 2rem;
       cursor: pointer;
     }
+    a {
+      text-decoration: none;
+      color: white;
+      :hover {
+        color: rgb(79, 101, 197);
+      }
+    }
   }
   @media (max-width: 1000px) {
     flex-direction: column;
@@ -68,6 +80,9 @@
     }
   }
   @media (max-width: 600px) {
+    .svguzb {
+      width: 400px;
+    }
     ul > li {
       font-size: 20px;
     }

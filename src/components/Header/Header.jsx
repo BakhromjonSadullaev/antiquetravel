@@ -7,8 +7,9 @@ import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import EmailIcon from "@mui/icons-material/Email";
 import TelegramIcon from "@mui/icons-material/Telegram";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
-import InstagramIcon from "@mui/icons-material/Instagram";
+import FacebookIcon from "@mui/icons-material/Facebook";
 import navLogo from "../../images/logo.png";
+import Facebook from "@mui/icons-material/Facebook";
 
 const Header = () => {
   return (
@@ -21,13 +22,14 @@ const Header = () => {
               <span>
                 <LocationOnIcon />
               </span>{" "}
-              Uzbekistan, Bukhara, 200100, Center-05-05
+              Bukhara city , Q.Murtazoyev str 9/1, №6
             </p>
+            <p>Uzbekistan 200100</p>
             <p>
               <span>
                 <LocalPhoneIcon />{" "}
               </span>{" "}
-              +99897 725-52-55 +99895 220-05-50
+              +99897 725-52-55
             </p>
             <p>
               <span>
@@ -36,26 +38,32 @@ const Header = () => {
               info@antiquetravel.com
             </p>
             <div className={style.socialLinks}>
-              <p>
-                {" "}
-                <span>
-                  <TelegramIcon />
-                </span>{" "}
-                Telegram
-              </p>
-              <p>
-                {" "}
-                <span>
-                  <WhatsAppIcon />
-                </span>{" "}
-                WhatsApp
-              </p>
-              <p>
-                <span>
-                  <InstagramIcon />
-                </span>{" "}
-                Instagram
-              </p>
+              <a target="_blank" href="https://t.me/bekzodrj">
+                <p>
+                  {" "}
+                  <span>
+                    <TelegramIcon />
+                  </span>{" "}
+                  Telegram
+                </p>
+              </a>
+              <a target="_blank" href="https://wa.me/qr/YMS75A26V23ZG1">
+                <p>
+                  {" "}
+                  <span>
+                    <WhatsAppIcon />
+                  </span>{" "}
+                  WhatsApp
+                </p>
+              </a>
+              <a target="_blank" href="https://www.facebook.com/bekzodrj">
+                <p>
+                  <span>
+                    <Facebook />
+                  </span>{" "}
+                  Facebook
+                </p>
+              </a>
             </div>
           </div>
         </nav>
@@ -66,7 +74,7 @@ const Header = () => {
         autoPlay={true}
         showArrows={false}
         showStatus={false}
-        interval={3000}
+        interval={7000}
         dynamicHeight={100}
       >
         <div className={style.carousel}>
