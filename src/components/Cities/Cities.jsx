@@ -61,7 +61,6 @@ const Cities = () => {
               unique clay buildings. Khiva was declared as the tourist capital
               of the Islamic world in 2024! Khiva is over 2500 years old.
             </p>
-            <button>Explore Now</button>
           </div>
         </div>
         <div className={style.cityCarousel}>
@@ -73,7 +72,6 @@ const Cities = () => {
               However, archeological evidence demonstrates that the city had
               been populated since the Chalcolithic period.
             </p>
-            <button>Explore Now</button>
           </div>
         </div>
         <div className={style.cityCarousel}>
@@ -86,7 +84,6 @@ const Cities = () => {
               Heritage List. The great commander Amir Temur was born in this
               city.
             </p>
-            <button>Explore Now</button>
           </div>
         </div>
       </Carousel>

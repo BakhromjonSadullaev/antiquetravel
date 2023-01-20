@@ -41,7 +41,7 @@ const UsefulLinks = () => {
     {
       icon: <AccountBalanceWalletIcon className={style.icon} />,
       title: "Online Payment",
-      link: "/payment",
+      link: "payment",
     },
     {
       icon: <DashboardIcon className={style.icon} />,
