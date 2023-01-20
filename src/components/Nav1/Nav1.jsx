@@ -11,11 +11,17 @@ const Nav1 = () => {
     <div className={style.body}>
       <div className={style.container}>
         <ul>
-          <li className={style.active}>Home</li>
-          <Link to={"AboutUs"}>
+          <Link to="/">
+            {" "}
+            <li className={style.active}>Home</li>
+          </Link>
+          <Link to="aboutUs">
             <li>About Us</li>
           </Link>
-          <li>Tours</li>
+          <Link to="tours">
+            <li>Tours</li>
+          </Link>
+
           <li>Hotels</li>
           <li>Transportation</li>
           <li>Destination</li>
