@@ -294,7 +294,7 @@ export default function SimpleAccordion() {
             </Typography>
           </AccordionDetails>
         </Accordion>
-        <Accordion className={style.accordion}>
+        <Accordion id="transportation_accordion" className={style.accordion}>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel2a-content"
