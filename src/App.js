@@ -18,7 +18,7 @@ import Tours from "./components/Tours/Tours";
 function App() {
   return (
     <Routes>
-      <Route path="Main" element={<Main />} />
+      <Route path="/" element={<Main />} />
       <Route path="Photo_Gallery" element={<Photo_Gallery />} />
       <Route path="Photo_Gallery/cities_gallery" element={<CitiesGallery />} />
       <Route path="Photo_Gallery/green_gallery" element={<GreenGallery />} />
