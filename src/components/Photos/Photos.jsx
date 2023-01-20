@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import style from "../Photos/Photos.module.scss";
+import goroda1 from "../../images/goroda1.jpg";
 
 const Photos = () => {
   return (
@@ -12,10 +13,7 @@ const Photos = () => {
           </Link>
           <div className={style.image_tracker}>
             <div className={style.slide}>
-              <img
-                src="https://uzbekistan.travel/storage/app/uploads/public/5e4/f70/5da/thumb_46_300_300_0_0_crop.jpg"
-                alt=""
-              />
+              <img src={goroda1} alt="" />
             </div>
             <div className={style.slide}>
               <img
