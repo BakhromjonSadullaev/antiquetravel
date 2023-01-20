@@ -15,7 +15,10 @@ const Nav1 = () => {
             {" "}
             <li className={style.active}>Home</li>
           </Link>
-          <li>About Us</li>
+          <Link to={"AboutUs"}>
+            <li>About Us</li>
+          </Link>
+
           <li>Tours</li>
           <li>Hotels</li>
           <li>Transportation</li>
