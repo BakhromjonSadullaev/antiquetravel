@@ -5,36 +5,62 @@ import { RxEnvelopeClosed } from "react-icons/rx";
 import { GoLocation } from "react-icons/go";
 import TelegramIcon from "@mui/icons-material/Telegram";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import footerImg from "../../images/logo.png";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import FooterLogo from "../../images/logo.png";
+import { Facebook } from "@mui/icons-material";
+import TravelSvg from "../../images/uzbsvg.png";
 const Footer = () => {
   return (
     <div className={style.wrapper}>
-      <img src={footerImg} alt="" />
+      <img src={FooterLogo} alt="" />
       <div>
         <h1>Contact Us</h1>
         <ul>
           <li>
-            <FaPhoneAlt /> +99897 725-52-55 +99895 220-05-50
+            <FaPhoneAlt /> +99897 725-52-55
           </li>
           <li>
-            <RxEnvelopeClosed /> info@antiquetravel.com
+            <RxEnvelopeClosed />
+            info@antiquetravel.com
           </li>
           <li>
-            <GoLocation /> Uzbekistan, Bukhara, 200100, Center-05-05
+            <GoLocation /> Bukhara city , Q.Murtazoyev str 9/1, №6
           </li>
+          <li className={style.ind}>Uzbekistan 200100</li>
         </ul>
         <div className={style.socialLinks}>
-          <TelegramIcon className={style.social} />
-          <WhatsAppIcon className={style.social} />
-          <InstagramIcon className={style.social} />
+          <a target="_blank" href="https://t.me/bekzodrj">
+            {" "}
+            <TelegramIcon className={style.social} />
+          </a>
+          <a target="_blank" href="https://wa.me/qr/YMS75A26V23ZG1">
+            <WhatsAppIcon className={style.social} />
+          </a>
+          <a target="_blank" href="https://www.facebook.com/bekzodrj">
+            <Facebook className={style.social} />
+          </a>
+        </div>
+        <div className={style.cards}>
+          <img
+            src="https://usa.visa.com/dam/VCOM/regional/ve/romania/blogs/hero-image/visa-logo-800x450.jpg"
+            alt=""
+          />
+          <img
+            src="https://icon-library.com/images/mastercard-icon-png/mastercard-icon-png-17.jpg"
+            alt=""
+          />
+          <img
+            src="https://kdb.uz/storage/cards/October2021/hNE9Tjbf0qf181qpgGah.jpg"
+            alt=""
+          />
+          <img
+            src="https://kdb.uz/storage/cards/October2021/jMrl5N5B9FAwoIwfSNtC.jpg"
+            alt=""
+          />
         </div>
         <p>Copyright ©2022 Developed By INDEX Team</p>
       </div>
-      <img
-        src="https://api.uznews.uz/storage/uploads/posts/images/45848/inner/gq3WdeSD43.jpg"
-        alt=""
-      />
+      <img src={TravelSvg} alt="" className={style.svguzb} />
     </div>
   );
 };

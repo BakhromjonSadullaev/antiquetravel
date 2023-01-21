@@ -5,9 +5,11 @@ import vid from "../../videos/vid.mp4";
 const VideoSection = () => {
   return (
     <div className={style.body}>
-      <video controls>
-        <source src={vid} type="video/mp4" />
-      </video>
+      <main className={style.main}>
+        <video controls>
+          <source src={vid} type="video/mp4" />
+        </video>
+      </main>
     </div>
   );
 };

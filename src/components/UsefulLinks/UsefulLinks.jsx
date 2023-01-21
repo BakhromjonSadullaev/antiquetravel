@@ -1,6 +1,6 @@
 import React from "react";
 import style from "../UsefulLinks/UsefulLinks.module.scss";
-import Link from "./components/Link";
+import Linker from "./components/Link";
 import WbSunnyIcon from "@mui/icons-material/WbSunny";
 import HotelIcon from "@mui/icons-material/Hotel";
 import AccountBalanceIcon from "@mui/icons-material/AccountBalance";
@@ -43,7 +43,7 @@ const UsefulLinks = () => {
     {
       icon: <AccountBalanceWalletIcon className={style.icon} />,
       title: t("OnlinePayment"),
-      link: "https://bank.uz/currency",
+      link: "/payment",
     },
     {
       icon: <DashboardIcon className={style.icon} />,
@@ -70,7 +70,7 @@ const UsefulLinks = () => {
       </div>
       <div className={style.linkContainer}>
         {links.map((link) => (
-          <Link icon={link.icon} title={link.title} link={link.link} />
+          <Linker icon={link.icon} title={link.title} link={link.link} />
         ))}
       </div>
     </div>

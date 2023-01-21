@@ -1,4 +1,8 @@
 .body {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 2;
   .container {
     background-color: #f5f3f4;
     border-top: 1px solid #e6e8e6;
@@ -28,7 +32,7 @@
         }
       }
 
-      @media (max-width: 800px) {
+      @media (max-width: 1150px) {
         display: none;
       }
     }
@@ -51,6 +55,10 @@
         }
       }
     }
+    .gallery_link {
+      text-decoration: none;
+      color: black;
+    }
 
     .menu {
       display: none;
@@ -62,12 +70,12 @@
         background-color: #e6e8e6;
       }
 
-      @media (max-width: 800px) {
+      @media (max-width: 1150px) {
         display: block;
       }
     }
 
-    @media (max-width: 800px) {
+    @media (max-width: 1150px) {
       justify-content: space-around;
     }
   }

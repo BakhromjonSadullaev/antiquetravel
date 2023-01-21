@@ -3,9 +3,14 @@
   align-items: center;
   justify-content: space-around;
   padding: 4rem 1rem;
-  background-color: #023047;
+  background-color: #48cae4;
   color: white;
-
+  .ind {
+    margin-left: 42px;
+  }
+  .svguzb {
+    width: 600px;
+  }
   img {
     max-width: 300px;
   }
@@ -32,6 +37,18 @@
       margin-top: 3rem;
     }
   }
+  .cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+    img {
+      width: 50px;
+      object-fit: cover;
+      object-position: center center;
+    }
+  }
 
   .socialLinks {
     display: flex;
@@ -41,14 +58,31 @@
     margin-top: 2rem;
     .social {
       font-size: 2rem;
+      cursor: pointer;
+    }
+    a {
+      text-decoration: none;
+      color: white;
+      :hover {
+        color: rgb(79, 101, 197);
+      }
     }
   }
-  @media (max-width: 800px) {
+  @media (max-width: 1000px) {
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+    .cards {
+      flex-direction: column;
+      img {
+        margin: 1rem;
+      }
+    }
   }
   @media (max-width: 600px) {
+    .svguzb {
+      width: 400px;
+    }
     ul > li {
       font-size: 20px;
     }

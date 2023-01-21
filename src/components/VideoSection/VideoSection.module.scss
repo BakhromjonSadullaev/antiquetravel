@@ -1,7 +1,11 @@
 .body {
-  max-width: 1200px;
-  padding: 2rem 1rem;
-  margin: auto;
+  background-image: url(http://uztravel.com/images/body-bg.gif);
+
+  .main {
+    max-width: 1200px;
+    padding: 2rem 1rem;
+    margin: auto;
+  }
 
   video {
     width: 100%;

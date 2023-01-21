@@ -1,9 +1,16 @@
 import React from "react";
 import style from "./Link.module.scss";
-
-const Link = ({ icon, title, link }) => {
-  return (
-    <a href={link} className={style.body}>
+import { Link } from "react-router-dom";
+const Linker = ({ icon, title, link }) => {
+  return link === "payment" ? (
+    <Link to={link} className={style.body}>
+      <div className={style.container}>
+        {icon}
+        <h3>{title}</h3>
+      </div>
+    </Link>
+  ) : (
+    <a href={link} target="_blank" className={style.body}>
       <div className={style.container}>
         {icon}
         <h3>{title}</h3>
@@ -12,4 +19,4 @@ const Link = ({ icon, title, link }) => {
   );
 };
 
-export default Link;
+export default Linker;
