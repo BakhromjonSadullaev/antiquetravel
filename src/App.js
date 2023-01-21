@@ -19,7 +19,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Main />} />
-      <Route path="Photo_Gallery" element={<Photo_Gallery />} />
+      <Route path="/Photo_Gallery" element={<Photo_Gallery />} />
       <Route path="Photo_Gallery/cities_gallery" element={<CitiesGallery />} />
       <Route path="Photo_Gallery/green_gallery" element={<GreenGallery />} />
       <Route
@@ -44,8 +44,8 @@ function App() {
         path="Photo_Gallery/tourism_gallery"
         element={<TourismGallery />}
       />
-      <Route path="aboutUs" element={<AboutUs />} />
-      <Route path="tours" element={<Tours />} />
+      <Route path="/aboutUs" element={<AboutUs />} />
+      <Route path="/tours" element={<Tours />} />
     </Routes>
   );
 }

@@ -15,18 +15,24 @@ const Nav1 = () => {
             {" "}
             <li className={style.active}>Home</li>
           </Link>
-          <Link to="aboutUs">
+          <Link to="/AboutUs">
             <li>About Us</li>
           </Link>
-          <Link to="tours">
+
+          <Link to={"/tours"}>
+            {" "}
             <li>Tours</li>
           </Link>
-
-          <li>Hotels</li>
-          <li>Transportation</li>
-          <li>Destination</li>
-          <li>Services</li>
-          <li>Staff</li>
+          <a
+            target="_blank"
+            href="https://www.booking.com/searchresults.html?checkout_year=&ss=tashkent&checkin_month=&checkin_year=&from_sf=1&aid=100994&sb=1&checkout_month=&b_h4u_keep_filters=&is_ski_area=0&src=theme_landing_index&sb_lp=1&sid=f19086fdf868f8b68bbf49632d8c2fb5&group_children=0&no_rooms=1&group_adults=2&src_elem=sb&error_url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Findex.html%3Faid%3D100994%26sid%3Df19086fdf868f8b68bbf49632d8c2fb5%26"
+          >
+            {" "}
+            <li>Hotels</li>
+          </a>
+          <a href="#transportation_accordion">
+            <li>Transportation</li>
+          </a>
           <Link to="Photo_Gallery" className={style.gallery_link}>
             <li>Photo Gallery</li>
           </Link>
@@ -40,7 +46,7 @@ const Nav1 = () => {
               width="20"
               alt="United States"
             />
-            Eng
+            ENG
           </p>
           <p>
             <img
@@ -49,7 +55,7 @@ const Nav1 = () => {
               width="20"
               alt="Russia"
             />
-            Rus
+            RUS
           </p>
           <p>
             <img
@@ -58,7 +64,7 @@ const Nav1 = () => {
               width="20"
               alt="Germany"
             />
-            Ger
+            DE
           </p>
         </div>
 
@@ -82,9 +88,6 @@ const Nav1 = () => {
           <li>Tours</li>
           <li>Hotels</li>
           <li>Transportation</li>
-          <li>Destination</li>
-          <li>Services</li>
-          <li>Staff</li>
           <li>Photo Gallery</li>
         </ul>
       </div>
