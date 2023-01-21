@@ -1,12 +1,16 @@
-.wrapper {
-  padding: 5rem 2rem;
-  h1 {
-    font-size: 30px;
-    text-align: center;
-  }
-  p {
-    max-width: 800px;
-    margin: 20px auto;
-    text-align: center;
+.body {
+  background-image: url(http://uztravel.com/images/body-bg.gif);
+
+  .wrapper {
+    padding: 5rem 2rem;
+    h1 {
+      font-size: 30px;
+      text-align: center;
+    }
+    p {
+      max-width: 800px;
+      margin: 20px auto;
+      text-align: center;
+    }
   }
 }

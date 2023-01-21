@@ -2,8 +2,11 @@ import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import style from "./Cities.module.scss";
+import { useTranslation, Trans } from "react-i18next";
 
 const Cities = () => {
+  const { t } = useTranslation();
+
   return (
     <div className={style.body}>
       {" "}
@@ -24,9 +27,7 @@ const Cities = () => {
           <div className={style.info}>
             <h1>Tashkent</h1>
             <p>
-              It is in northeastern Uzbekistan, near the border with Kazakhstan.
-              Tashkent comes from the Turkic tash and kent, literally translated
-              as "Stone City" or "City of Stones".
+              <Trans t={t}>tashkentstory</Trans>
             </p>
           </div>
         </div>
@@ -35,8 +36,7 @@ const Cities = () => {
           <div className={style.info}>
             <h1>Samarkand</h1>
             <p>
-              Samarqand, is a city in southeastern Uzbekistan and among the
-              oldest continuously inhabited cities in Central Asia.
+              <Trans t={t}>samarqandstory</Trans>
             </p>
           </div>
         </div>
@@ -45,10 +45,7 @@ const Cities = () => {
           <div className={style.info}>
             <h1>Bukhara</h1>
             <p>
-              Bukhara, which is situated on the Silk Route, is more than 2,000
-              years old. It is the most complete example of a medieval city in
-              Central Asia, with an urban fabric that has remained largely
-              intact.
+              <Trans t={t}>bukharastory</Trans>
             </p>
           </div>
         </div>
@@ -57,9 +54,7 @@ const Cities = () => {
           <div className={style.info}>
             <h1>Khiva</h1>
             <p>
-              Khiva is a beautiful oasis city with ancient walls, minarets and
-              unique clay buildings. Khiva was declared as the tourist capital
-              of the Islamic world in 2024! Khiva is over 2500 years old.
+              <Trans t={t}>khivastory</Trans>
             </p>
           </div>
         </div>
@@ -68,9 +63,7 @@ const Cities = () => {
           <div className={style.info}>
             <h1>Ferghana</h1>
             <p>
-              Fergana first appears in written records in the 5th-century.
-              However, archeological evidence demonstrates that the city had
-              been populated since the Chalcolithic period.
+              <Trans t={t}>ferganastory</Trans>
             </p>
           </div>
         </div>
@@ -79,10 +72,7 @@ const Cities = () => {
           <div className={style.info}>
             <h1>Shakhrisabz</h1>
             <p>
-              Shakhrisabz is one of the most ancient and picturesque cities of
-              Uzbekistan. Its historical centre is included in the UNESCO World
-              Heritage List. The great commander Amir Temur was born in this
-              city.
+              <Trans t={t}>shakhrisabzstory</Trans>
             </p>
           </div>
         </div>

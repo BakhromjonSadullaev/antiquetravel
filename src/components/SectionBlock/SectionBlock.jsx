@@ -683,7 +683,7 @@ export default function SimpleAccordion() {
                   </p>
                 </div>
                 <img
-                  src="https://uzbekistan.travel/storage/app/media/animals.jpg"
+                  src="https://uzbekistan.travel/storage/app/media/uploaded-files/30.jpg"
                   alt=""
                 />
               </div>
@@ -714,10 +714,111 @@ export default function SimpleAccordion() {
             <Typography className={style.faq14}>
               <div className={style.flat}>
                 <img
-                  src="https://uzbekistan.travel/storage/app/media/uploaded-files/35.jpg"
+                  src="https://uzbekistan.travel/storage/app/media/nargizav/hilton_vid2.jpg"
                   alt=""
                 />
+                <p>
+                  <Trans t={t}>faq14text1</Trans>
+                </p>
               </div>
+              <h3>
+                <Trans t={t}>faq14text2</Trans>
+              </h3>
+              <p>
+                <Trans t={t}>faq14text3</Trans>
+              </p>
+              <p>
+                <Trans t={t}>faq14text4</Trans>
+              </p>
+              <p>
+                <Trans t={t}>faq14text5</Trans>
+              </p>
+              <p>
+                <Trans t={t}>faq14text6</Trans>
+              </p>
+              <p>
+                <Trans t={t}>faq14text7</Trans>
+              </p>
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+        <Accordion className={style.accordion}>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={style.question}>
+              <GiShinyApple />
+              <Trans t={t}>faq15text1</Trans>
+            </Typography>
+          </AccordionSummary>
+          <AccordionDetails className={style.answer}>
+            <Typography className={style.faq15}>
+              <div className={style.food}>
+                <img
+                  src="https://uzbekistan.travel/storage/app/media/uploaded-files/34.jpg"
+                  alt=""
+                />
+                <div>
+                  <h4>
+                    <Trans t={t}>faq15text2</Trans>
+                  </h4>
+                  <h4>
+                    <Trans t={t}>faq15text3</Trans>
+                  </h4>
+                </div>
+              </div>
+              <p>
+                1. <Trans t={t}>faq15text4</Trans>
+              </p>
+              <p>
+                2. <Trans t={t}>faq15text5</Trans>
+              </p>
+              <p>
+                3. <Trans t={t}>faq15text6</Trans>
+              </p>
+              <p>
+                4. <Trans t={t}>faq15text7</Trans>
+              </p>
+              <p>
+                5. <Trans t={t}>faq15text8</Trans>
+              </p>
+              <p>
+                6. <Trans t={t}>faq15text9</Trans>
+              </p>
+              <p>
+                7. <Trans t={t}>faq15text10</Trans>
+              </p>
+              <h3>
+                <Trans t={t}>faq15text11</Trans>
+              </h3>
+              <h3>
+                <Trans t={t}>faq15text12</Trans>
+              </h3>
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+        <Accordion className={style.accordion}>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2a-content"
+            id="panel2a-header"
+          >
+            <Typography className={style.question}>
+              <BsCartFill />
+              <Trans t={t}>faq16text1</Trans>
+            </Typography>
+          </AccordionSummary>
+          <AccordionDetails className={style.answer}>
+            <Typography className={style.faq16}>
+              <p>
+                <Trans t={t}>faq16text2</Trans>
+              </p>
+              <img
+                src="https://uzbekistan.travel/storage/app/media/uploaded-files/35.jpg"
+                alt=""
+              />
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -729,7 +830,7 @@ export default function SimpleAccordion() {
           >
             <Typography className={style.question}>
               <FaKey />
-              Security
+              <Trans t={t}>faq17text1</Trans>
             </Typography>
           </AccordionSummary>
           <AccordionDetails className={style.answer}>
@@ -739,14 +840,7 @@ export default function SimpleAccordion() {
                 alt=""
               />
               <p>
-                According to the US Gallup Institute, in 2018 Uzbekistan was
-                included in the top five safest countries in the world. If you
-                follow the basic precautions, travel to Uzbekistan will be safe
-                and comfortable. If you still need help on your journey, there
-                are police stations in any public place, where you will receive
-                first aid, or you can contact the police by calling 102. There
-                is a tourist police in Uzbekistan as well, which is responsible
-                for your safety in our country.
+                <Trans t={t}>faq17text2</Trans>
               </p>
             </Typography>
           </AccordionDetails>
@@ -759,7 +853,7 @@ export default function SimpleAccordion() {
           >
             <Typography className={style.question}>
               <MdCleanHands />
-              Hygiene
+              <Trans t={t}>faq18text1</Trans>
             </Typography>
           </AccordionSummary>
           <AccordionDetails className={style.answer}>
@@ -770,26 +864,13 @@ export default function SimpleAccordion() {
               />
               <div>
                 <p>
-                  Since childhood we were taught to wash our hands before eating
-                  – the most important rule of personal hygiene. During your
-                  stay in Uzbekistan, you should follow the simplest hygiene
-                  rules: wash your hands before eating, use wet wipes or hand
-                  sanitizers, use the shower more often in hot weather, do not
-                  drink raw water, especially from open reservoirs, do not
-                  consume untested food and drinks, especially in exotic places.
+                  <Trans t={t}>faq18text2</Trans>
                 </p>
                 <p>
-                  Remember, people in Uzbekistan eat fat and high-calorie food
-                  since childhood, and if you did not get used to eat such food,
-                  it can be heavy for your stomach. Eat moderately and do not
-                  mix unsuitable foods.
+                  <Trans t={t}>faq18text3</Trans>
                 </p>
                 <p>
-                  As summer in Uzbekistan is very hot, during the summer
-                  Chillya, follow the appropriate precautions: do not walk
-                  around the city at hot noon, wear hats and light and
-                  comfortable clothing and shoes, consume as much water as
-                  possible to avoid dehydration.
+                  <Trans t={t}>faq18text4</Trans>
                 </p>
               </div>
             </Typography>
@@ -804,7 +885,7 @@ export default function SimpleAccordion() {
           >
             <Typography className={style.question}>
               <MdRule />
-              Customs and Rules
+              <Trans t={t}>faq19text1</Trans>
             </Typography>
           </AccordionSummary>
           <AccordionDetails className={style.answer}>
@@ -814,33 +895,16 @@ export default function SimpleAccordion() {
                 alt=""
               />
               <p>
-                Uzbekistan is a secular country, but Islam is the main religion
-                in the country. If you visit any local mosque, you should follow
-                some rules. Restraint and respect are required when visiting the
-                mosque. It is better to visit it, when there is no worship. The
-                clothing is also very important: short pants, t-shirts and
-                skirts are definitely not welcome here, and women should cover
-                their heads before entering the mosque.
+                <Trans t={t}>faq19text2</Trans>
               </p>
               <p>
-                Many mosques do not prohibit shooting, but this is a taboo
-                during the prayer. Usually the parishioners during the prayer do
-                not pay attention to the visitors in order not to interrupt it.
+                <Trans t={t}>faq19text3</Trans>
               </p>
               <p>
-                If you have decided to photograph people on the street, first of
-                all you should ask their permission, for ethical reasons. You
-                will never be refused, but it is more comfortable and calmer,
-                when they smile in the frame.
+                <Trans t={t}>faq19text4</Trans>
               </p>
               <p>
-                In Uzbekistan it is forbidden to drink alcohol in the public
-                places and while driving a car. You will be fined 1/3 of the
-                minimum wage for the smoking in the offices, health care
-                facilities, educational and sports facilities, fire-prone areas,
-                including gas stations, streets, stadiums, squares, parks, all
-                types of public transport and other public places. Smoking is
-                allowed only in special designated areas.
+                <Trans t={t}>faq19text5</Trans>
               </p>
             </Typography>
           </AccordionDetails>

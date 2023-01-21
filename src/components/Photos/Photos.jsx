@@ -2,8 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import style from "../Photos/Photos.module.scss";
 import goroda1 from "../../images/goroda1.jpg";
+import { useTranslation } from "react-i18next";
 
 const Photos = () => {
+  const { t, i18n } = useTranslation();
+
   return (
     <div>
       <section className={style.wrapper}>

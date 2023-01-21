@@ -235,6 +235,23 @@ i18next
             "If you have decided to photograph people on the street, first of all you should ask their permission, for ethical reasons. You will never be refused, but it is more comfortable and calmer, when they smile in the frame.",
           faq19text5:
             "In Uzbekistan it is forbidden to drink alcohol in the public places and while driving a car. You will be fined 1/3 of the minimum wage for the smoking in the offices, health care facilities, educational and sports facilities, fire-prone areas, including gas stations, streets, stadiums, squares, parks, all types of public transport and other public places. Smoking is allowed only in special designated areas.",
+          aboutus1: "Antique Travel",
+          aboutus2:
+            " “Travel is the main thing you purchase that makes you more extravagant”. We, at ‘Antique Travel’, swear by this and put stock in satisfying travel dreams that make you perpetually rich constantly. We have been moving excellent encounters for a considerable length of time through our cutting-edge planned occasion bundles and other fundamental travel administrations. We rouse our clients to carry on with a rich life, brimming with extraordinary travel encounters. Through our exceptionally curated occasion bundles, we need to take you on an adventure where you personally enjoy the stunning magnificence of Central Asia and far-off terrains. ",
+          aboutus3:
+            "We need you to observe sensational scenes that are a long way past your creative ability. The powerful inclination of world voyagers to travel more nowadays is something that keeps us inspired to satisfy our vacation necessities. Our vision to give you a consistent occasion encounter makes us one of the main visit administrators in the regularly extending travel industry. To guarantee that you have a satisfying occasion and healthy encounters, all our vacation administrations are available to your no matter what. On your universal occasion, we guarantee that you are very much outfitted with outside trade (Forex Cards, Currency Notes), visa, and travel protection. Regardless of whether it’s reserving flights or inns for your movement, Antique Travel offers everything under one umbrella. We likewise have journey occasions for individuals who are searching for solace and reasonable extravagance. We offer the best limits on our top-rated visit bundles to clients who pick our viable administrations over and over. How about we remind you indeed that we don’t expect to be your visit and travel specialists; we endeavor to be your vacation accomplices until the end of time.",
+          tashkentstory:
+            "It is in northeastern Uzbekistan, near the border with Kazakhstan. Tashkent comes from the Turkic tash and kent, literally translated as 'Stone City' or 'City of Stones'.",
+          samarqandstory:
+            "Samarqand, is a city in southeastern Uzbekistan and among the oldest continuously inhabited cities in Central Asia.",
+          bukharastory:
+            " Bukhara, which is situated on the Silk Route, is more than 2,000 years old. It is the most complete example of a medieval city in Central Asia, with an urban fabric that has remained largely intact.",
+          khivastory:
+            "Khiva is a beautiful oasis city with ancient walls, minarets and unique clay buildings. Khiva was declared as the tourist capital of the Islamic world in 2024! Khiva is over 2500 years old.",
+          ferganastory:
+            "Fergana first appears in written records in the 5th-century. However, archeological evidence demonstrates that the city had been populated since the Chalcolithic period.",
+          shakhrisabzstory:
+            "Shakhrisabz is one of the most ancient and picturesque cities of Uzbekistan. Its historical centre is included in the UNESCO World Heritage List. The great commander Amir Temur was born in this city.",
         },
       },
       de: {
@@ -466,6 +483,22 @@ i18next
             "Als je hebt besloten om eerst mensen op straat te fotograferen alles wat u om ethische redenen moet vragen, is hun toestemming. Jij zal nooit worden geweigerd, maar het is comfortabeler en rustiger als ze glimlach in het kader.",
           faq19text5:
             "In Oezbekistan is het verboden om in het openbaar alcohol te drinken plaatsen en tijdens het autorijden. U krijgt een boete van 1/3 van de boete minimumloon voor het roken in de kantoren, gezondheidszorg faciliteiten, onderwijs- en sportfaciliteiten, brandgevoelige gebieden, inclusief benzinestations, straten, stadions, pleinen, parken, alles soorten openbaar vervoer en andere openbare plaatsen. Roken wel alleen toegestaan ​​in speciaal daarvoor bestemde gebieden.",
+          aboutus2:
+            "„Reisen ist die erste Anschaffung, die Sie luxuriös macht.“ Wir von „Antique Travel“ schwören darauf und bieten Ihnen einen befriedigenden Reisetraum, der Sie für immer bereichern wird. Wir sorgen seit geraumer Zeit für großartige Begegnungen durch hochmoderne geplante Opportunity-Pakete und andere grundlegende Reiseverwaltung. Durch speziell kuratierte Gelegenheitspakete müssen wir Sie auf ein Abenteuer mitnehmen, um die erstaunliche Pracht Zentralasiens und seines abgelegenen Terrains persönlich zu genießen. ",
+          aboutus3:
+            "Der jüngste starke Trend unter globalen Reisenden, immer mehr zu reisen, inspiriert uns weiterhin dazu, unsere Urlaubsnotwendigkeiten zu erfüllen.Wir werden regelmäßig zu einem der führenden Besuchsmanager in der expandierenden Reisebranche. Unser gesamtes Urlaubsmanagement steht Ihnen jederzeit zur Verfügung, um befriedigende Gelegenheiten und gesunde Begegnungen zu gewährleisten. Wir garantieren, dass Sie Devisenkarten, Geldscheine), Visa und Reiseschutz haben. Egal, ob Sie Flüge oder Unterkünfte buchen, um sich fortzubewegen, Antique Travel bietet alles unter einem Dach. Ebenso gibt es Reisemöglichkeiten für Personen, die Trost und angemessene Extravaganz suchen. Wir bieten die höchsten Limits für die am besten bewerteten Besuchspakete für Kunden, die sich wiederholt für ein praktikables Management entscheiden. Denken Sie daran, dass wir nicht erwarten, dass Sie ein Besuchs- oder Reiseexperte sind, bitte geben Sie es mir. Wir sind bestrebt, bis zum Ende Ihr Urlaubskomplize zu sein. ",
+          tashkentstory:
+            "Het ligt in het noordoosten van Oezbekistan, vlakbij de grens met Kazachstan. Tasjkent komt van het Turkse tash en kent, letterlijk vertaald als 'Stone City' of 'City of Stones'.",
+          samarqandstory:
+            "Samarqand, is een stad in het zuidoosten van Oezbekistan en een van de oudste continu bewoonde steden in Centraal-Azië.",
+          bukharastory:
+            " Bukhara, gelegen aan de Zijderoute, is meer dan 2000 jaar oud. Het is het meest complete voorbeeld van een middeleeuwse stad in Centraal-Azië, met een stedelijk weefsel dat grotendeels intact is gebleven.",
+          khivastory:
+            "Khiva is een prachtige oasestad met oude muren, minaretten en unieke lemen gebouwen. Khiva werd in 2024 uitgeroepen tot toeristische hoofdstad van de islamitische wereld! Khiva is meer dan 2500 jaar oud.",
+          ferganastory:
+            "Fergana verschijnt voor het eerst in schriftelijke verslagen in de 5e eeuw. Archeologisch bewijs toont echter aan dat de stad dat wel had bevolkt sinds de Chalcolithische periode.",
+          shakhrisabzstory:
+            "Shakhrisabz is een van de oudste en meest pittoreske steden van Oezbekistan. Het historische centrum is opgenomen in de UNESCO Wereld Erfgoed lijst. Hierin is de grote commandant Amir Temur geboren stad.",
         },
       },
       ru: {
@@ -693,6 +726,22 @@ i18next
             "Если вы решили фотографировать людей на улице, в первую очередь на все вы должны спрашивать их разрешения по этическим соображениям. Ты сможешь никогда не откажут, но комфортнее и спокойнее, когда они улыбка в кадре.",
           faq19text5:
             "В Узбекистане запрещено распивать алкоголь в общественных местах местах и ​​во время вождения автомобиля. Вас оштрафуют на 1/3 минимальная заработная плата за курение в офисах, здравоохранение объекты, образовательные и спортивные объекты, пожароопасные территории, включая заправочные станции, улицы, стадионы, площади, парки, все виды общественного транспорта и другие общественные места. Смокинг допускается только в специально отведенных местах.",
+          aboutus2:
+            "«Путешествие — это главная покупка, которая делает вас роскошным.» Мы в «Antique Travel» заявляем об этом и инвестируем в мечту об увлекательном путешествии, которое навсегда обогатит вас. Уже довольно давно мы организуем отличные встречи с помощью передовых запланированных пакетов возможностей и других базовых методов управления поездками. С помощью специально подобранных пакетов возможностей мы должны отправить вас в приключение, чтобы лично насладиться удивительным великолепием Центральной Азии и ее удаленной местности. ",
+          aboutus3:
+            "Недавняя сильная тенденция среди путешественников со всего мира путешествовать все больше и больше - это то, что продолжает вдохновлять нас на удовлетворение наших потребностей в отпуске Мы регулярно становимся одним из ведущих менеджеров посещений в расширяющейся индустрии туризма. Чтобы обеспечить удовлетворяющие возможности и здоровые встречи, все наши услуги по управлению отпуском доступны для вас, несмотря ни на что. Для вашего универсального случая мы гарантируем, что у вас есть внешние транзакции (форекс-карты, денежные знаки), визы и защита путешествий. От бронирования авиабилетов до отелей в соответствии с вашими путешествиями, Antique Travel предлагает все под одной крышей. Кроме того, есть возможности для путешествий для людей, ищущих утешения и разумной экстравагантности. Мы предлагаем самые высокие лимиты на пакеты посещений с самым высоким рейтингом для клиентов, которые неоднократно выбирают жизнеспособное управление. Помните, что мы не ожидаем, что вы будете экспертом по посещениям или путешествиям. Пожалуйста, дайте мне. Мы стремимся быть вашими соучастниками в вашем отпуске до самого конца. ",
+          tashkentstory:
+            "«Он находится на северо-востоке Узбекистана, недалеко от границы с Казахстаном. Ташкент происходит от тюркских слов таш и кент, что дословно переводится как «Каменный город» или «Город камней».",
+          samarqandstory:
+            "Самарканд — город на юго-востоке Узбекистана, один из Древнейшие постоянно населенные города Средней Азии.",
+          bukharastory:
+            "«Бухаре, расположенной на Шелковом пути, более 2000 лет. Это наиболее полный пример средневекового города в Центральной Азии, городская структура которого сохранилась практически нетронутой».",
+          khivastory:
+            "«Хива — красивый город-оазис с древними стенами, минаретами и уникальными глиняными постройками. В 2024 году Хива была объявлена туристической столицей исламского мира! Хиве более 2500 лет.»,",
+          ferganastory:
+            "Впервые Фергана упоминается в письменных источниках V века. Однако археологические данные свидетельствуют о том, что город был был заселен с эпохи энеолита.",
+          shakhrisabzstory:
+            "Шахрисабз – один из древнейших и живописнейших городов Узбекистан. Его исторический центр включен в список Всемирного наследия ЮНЕСКО. Список наследия. В этом городе родился великий полководец Амир Темур. город.",
         },
       },
     },

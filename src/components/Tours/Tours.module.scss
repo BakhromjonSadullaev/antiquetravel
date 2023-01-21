@@ -1,43 +1,56 @@
-.wrapper {
-  width: 70%;
-  margin: auto;
-  padding: 4rem 0;
-  .green {
-    color: green;
+.body {
+  background-image: url(http://uztravel.com/images/body-bg.gif);
+  padding: 2rem 0;
+  h1 {
+    text-align: center;
   }
-  .red {
-    color: red;
-  }
-  .list_type {
-    margin-left: 1rem;
-  }
-  .items > li {
-    list-style-type: square;
-    margin-left: 2rem;
-  }
-  ul > li {
-    list-style-type: none;
-    ul > li {
-      margin-left: 2rem;
-      list-style-type: disc;
-    }
-    li {
-      list-style: none;
-    }
-  }
-  .info {
-    display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-    p {
-      margin: 1rem 0;
-    }
-    img {
-      max-width: 500px;
-      height: 400px;
-      object-fit: cover;
-      object-position: center;
+  .wrapper {
+    width: 70%;
+    margin: auto;
+    padding: 2rem 0;
+
+    .accordion {
       margin: 1rem;
+      padding: 10px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    .green {
+      color: green;
+    }
+    .red {
+      color: red;
+    }
+    .list_type {
+      margin-left: 1rem;
+    }
+    .items > li {
+      list-style-type: square;
+      margin-left: 2rem;
+    }
+    ul > li {
+      list-style-type: none;
+      ul > li {
+        margin-left: 2rem;
+        list-style-type: disc;
+      }
+      li {
+        list-style: none;
+      }
+    }
+    .info {
+      display: flex;
+      justify-content: center;
+      margin: 1rem 0;
+      p {
+        margin: 1rem 0;
+      }
+      img {
+        max-width: 500px;
+        height: 400px;
+        object-fit: cover;
+        object-position: center;
+        margin: 1rem;
+      }
     }
   }
 }
