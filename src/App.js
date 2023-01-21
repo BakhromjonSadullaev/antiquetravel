@@ -14,11 +14,12 @@ import HistoricalGallery from "./Pages/HistoricalGallery";
 import TourismGallery from "./Pages/TourismGallery";
 import Payment from "./Pages/Payment/Payment";
 import AboutUs from "./components/AboutUs/AboutUs";
+import Tours from "./components/Tours/Tours";
 function App() {
   return (
     <Routes>
       <Route path="/" element={<Main />} />
-      <Route path="Photo_Gallery" element={<Photo_Gallery />} />
+      <Route path="/Photo_Gallery" element={<Photo_Gallery />} />
       <Route path="Photo_Gallery/cities_gallery" element={<CitiesGallery />} />
       <Route path="Photo_Gallery/green_gallery" element={<GreenGallery />} />
       <Route
@@ -43,7 +44,8 @@ function App() {
         path="Photo_Gallery/tourism_gallery"
         element={<TourismGallery />}
       />
-      <Route path="aboutUs" element={<AboutUs />} />
+      <Route path="/aboutUs" element={<AboutUs />} />
+      <Route path="/tours" element={<Tours />} />
     </Routes>
   );
 }
