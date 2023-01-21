@@ -2,6 +2,12 @@
   width: 70%;
   margin: auto;
   padding: 4rem 0;
+  .green {
+    color: green;
+  }
+  .red {
+    color: red;
+  }
   .list_type {
     margin-left: 1rem;
   }
@@ -14,6 +20,9 @@
     ul > li {
       margin-left: 2rem;
       list-style-type: disc;
+    }
+    li {
+      list-style: none;
     }
   }
   .info {
