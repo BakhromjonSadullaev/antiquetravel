@@ -20,28 +20,28 @@ function App() {
     <Routes>
       <Route path="/" element={<Main />} />
       <Route path="/Photo_Gallery" element={<Photo_Gallery />} />
-      <Route path="Photo_Gallery/cities_gallery" element={<CitiesGallery />} />
-      <Route path="Photo_Gallery/green_gallery" element={<GreenGallery />} />
+      <Route path="/Photo_Gallery/cities_gallery" element={<CitiesGallery />} />
+      <Route path="/Photo_Gallery/green_gallery" element={<GreenGallery />} />
       <Route
-        path="Photo_Gallery/culture_gallery"
+        path="/Photo_Gallery/culture_gallery"
         element={<CultureGallery />}
       />
       <Route
-        path="Photo_Gallery/architecture_gallery"
+        path="/Photo_Gallery/architecture_gallery"
         element={<ArchitectureGallery />}
       />
-      <Route path="Photo_Gallery/people_gallery" element={<PeopleGallery />} />
-      <Route path="Photo_Gallery/food_gallery" element={<FoodGallery />} />
-      <Route path="Photo_Gallery/metro_gallery" element={<MetroGallery />} />
-      <Route path="Photo_Gallery/art_gallery" element={<ArtGallery />} />
-      <Route path="Photo_Gallery/sport_gallery" element={<SportGallery />} />
-      <Route path="payment" element={<Payment />} />
+      <Route path="/Photo_Gallery/people_gallery" element={<PeopleGallery />} />
+      <Route path="/Photo_Gallery/food_gallery" element={<FoodGallery />} />
+      <Route path="/Photo_Gallery/metro_gallery" element={<MetroGallery />} />
+      <Route path="/Photo_Gallery/art_gallery" element={<ArtGallery />} />
+      <Route path="/Photo_Gallery/sport_gallery" element={<SportGallery />} />
+      <Route path="/payment" element={<Payment />} />
       <Route
-        path="Photo_Gallery/historical_gallery"
+        path="/Photo_Gallery/historical_gallery"
         element={<HistoricalGallery />}
       />
       <Route
-        path="Photo_Gallery/tourism_gallery"
+        path="/Photo_Gallery/tourism_gallery"
         element={<TourismGallery />}
       />
       <Route path="/aboutUs" element={<AboutUs />} />

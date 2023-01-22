@@ -1,43 +1,54 @@
 .container {
-  main {
-    padding: 5rem 1rem;
-    display: flex;
-    justify-content: center;
+  .body {
+    background-image: url(http://uztravel.com/images/body-bg.gif);
 
-    img {
-      max-width: 700px;
-      object-fit: cover;
-      object-position: center;
-    }
-    .text_card {
-      color: rgb(214, 208, 208);
-    }
-    .btn_1 {
-      border: none;
-      border-radius: 10px;
-      margin: 1rem 0;
-      cursor: pointer;
-      color: white;
-      background-color: rgba(4, 162, 4, 0.933);
-    }
-    .paymentContainer {
-      form {
-        display: grid;
-        grid-template-columns: auto auto;
+    main {
+      padding: 5rem 1rem;
+      display: flex;
+      justify-content: center;
+
+      img {
+        max-width: 700px;
+        object-fit: cover;
+        object-position: center;
+      }
+      .text_card {
+        color: rgb(21, 20, 20);
+      }
+      .btn_1 {
+        border: none;
+        border-radius: 10px;
         margin: 1rem 0;
-        .third_input {
+        cursor: pointer;
+        color: white;
+        background-color: rgba(4, 162, 4, 0.933);
+      }
+      .paymentContainer {
+        h3 {
+          padding: 8px 10px;
+          border-radius: 10px;
+          text-align: center;
           margin: 10px 0;
-          grid-column: 1/3;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+        form {
+          display: grid;
+          grid-template-columns: auto auto;
+          margin: 1rem 0;
+          .third_input {
+            margin: 10px 0;
+            grid-column: 1/3;
+          }
         }
       }
     }
-  }
-  @media only screen and (max-width: 1000px) {
-    main {
-      flex-direction: column;
-      width: 90%;
-      margin: auto;
-      padding: 0;
+    @media only screen and (max-width: 1000px) {
+      main {
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        padding: 0;
+      }
     }
   }
 }

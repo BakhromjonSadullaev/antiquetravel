@@ -2,13 +2,16 @@ import React from "react";
 import { Link } from "react-router-dom";
 import style from "../Photos/Photos.module.scss";
 import goroda1 from "../../images/goroda1.jpg";
+import { useTranslation } from "react-i18next";
 
 const Photos = () => {
+  const { t, i18n } = useTranslation();
+
   return (
     <div>
       <section className={style.wrapper}>
         <div className={style.image_slider}>
-          <Link to={"cities_gallery"}>
+          <Link to={"/Photo_Gallery/cities_gallery"}>
             <h1>Города</h1>
           </Link>
           <div className={style.image_tracker}>
@@ -60,7 +63,7 @@ const Photos = () => {
           </div>
         </div>
         <div className={style.image_slider}>
-          <Link to={"green_gallery"}>
+          <Link to={"/Photo_Gallery/green_gallery"}>
             <h1>Природа</h1>
           </Link>
 
@@ -124,7 +127,7 @@ const Photos = () => {
       </section>
       <section className={style.wrapper}>
         <div className={style.image_slider}>
-          <Link to={"culture_gallery"}>
+          <Link to={"/Photo_Gallery/culture_gallery"}>
             <h1>Культура</h1>
           </Link>
           <div className={style.image_tracker}>
@@ -179,7 +182,7 @@ const Photos = () => {
           </div>
         </div>
         <div className={style.image_slider}>
-          <Link to={"architecture_gallery"}>
+          <Link to={"/Photo_Gallery/architecture_gallery"}>
             <h1>Архитектура</h1>
           </Link>
 
@@ -243,7 +246,7 @@ const Photos = () => {
       </section>
       <section className={style.wrapper}>
         <div className={style.image_slider}>
-          <Link to={"people_gallery"}>
+          <Link to={"/Photo_Gallery/people_gallery"}>
             <h1>Люди</h1>
           </Link>
           <div className={style.image_tracker}>
@@ -293,7 +296,7 @@ const Photos = () => {
           </div>
         </div>
         <div className={style.image_slider}>
-          <Link to={"food_gallery"}>
+          <Link to={"/Photo_Gallery/food_gallery"}>
             <h1>Еда</h1>
           </Link>
           <div className={style.image_tracker}>
@@ -356,7 +359,7 @@ const Photos = () => {
       </section>
       <section className={style.wrapper}>
         <div className={style.image_slider}>
-          <Link to={"metro_gallery"}>
+          <Link to={"/Photo_Gallery/metro_gallery"}>
             <h1>Метро</h1>
           </Link>
           <div className={style.image_tracker}>
@@ -406,7 +409,7 @@ const Photos = () => {
           </div>
         </div>
         <div className={style.image_slider}>
-          <Link to={"art_gallery"}>
+          <Link to={"/Photo_Gallery/art_gallery"}>
             <h1>Искусство</h1>
           </Link>
           <div className={style.image_tracker}>
@@ -469,7 +472,7 @@ const Photos = () => {
       </section>
       <section className={style.wrapper}>
         <div className={style.image_slider}>
-          <Link to={"sport_gallery"}>
+          <Link to={"/Photo_Gallery/sport_gallery"}>
             <h1>Экстрим и спорт</h1>
           </Link>
           <div className={style.image_tracker}>
@@ -519,7 +522,7 @@ const Photos = () => {
           </div>
         </div>
         <div className={style.image_slider}>
-          <Link to={"historical_gallery"}>
+          <Link to={"/Photo_Gallery/historical_gallery"}>
             <h1>Загадки археологии</h1>
           </Link>
           <div className={style.image_tracker}>
@@ -576,7 +579,7 @@ const Photos = () => {
       </section>
       <section className={style.wrapper}>
         <div className={style.image_slider}>
-          <Link to={"tourism_gallery"}>
+          <Link to={"/Photo_Gallery/tourism_gallery"}>
             <h1>Объекты зиёрат-туризма</h1>
           </Link>
           <div className={style.image_tracker}>

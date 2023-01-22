@@ -38,64 +38,70 @@ const Payment = () => {
     <div className={style.container}>
       <Header />
       <Nav1 />
-      <main>
-        <img
-          src="https://static.vecteezy.com/system/resources/thumbnails/007/118/548/original/payment-with-card-by-pos-terminal-4k-animation-payment-by-card-swipe-through-a-pos-terminal-payment-terminal-money-transaction-animation-paying-for-goods-ecommerce-card-swipe-payment-system-free-video.jpg"
-          alt=""
-        />
-        <div className={style.paymentContainer}>
-          <Box sx={{ width: "100%" }}>
-            <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
-              <Tabs
-                value={value}
-                onChange={handleChange}
-                aria-label="basic tabs example"
-              >
-                <Tab label="First Option" />
-                <Tab label="Second Option(Recommended)" />
-              </Tabs>
-            </Box>
-            <TabPanel value={value} index={0}>
-              <h2>Online payments built for success</h2>
-              <form>
-                <TextField
-                  id="outlined-basic"
-                  label="Card Number"
-                  variant="outlined"
-                  className={style.third_input}
-                  placeholder="12345678123456"
-                />
-                <TextField
-                  id="outlined-basic"
-                  label="Expiration"
-                  variant="outlined"
-                  placeholder="12/19"
-                />
-                <TextField
-                  id="outlined-basic"
-                  label="CVV"
-                  variant="outlined"
-                  placeholder="CVV"
-                />
-              </form>
+      <div className={style.body}>
+        <main>
+          <img
+            src="https://static.vecteezy.com/system/resources/thumbnails/007/118/548/original/payment-with-card-by-pos-terminal-4k-animation-payment-by-card-swipe-through-a-pos-terminal-payment-terminal-money-transaction-animation-paying-for-goods-ecommerce-card-swipe-payment-system-free-video.jpg"
+            alt=""
+          />
+          <div className={style.paymentContainer}>
+            <Box sx={{ width: "100%" }}>
+              <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
+                <Tabs
+                  value={value}
+                  onChange={handleChange}
+                  aria-label="basic tabs example"
+                >
+                  <Tab label="First Option" />
+                  <Tab label="Second Option(Recommended)" />
+                </Tabs>
+              </Box>
+              <TabPanel value={value} index={0}>
+                <h2>Online payments built for success</h2>
+                <form>
+                  <TextField
+                    id="outlined-basic"
+                    label="Card Number"
+                    variant="outlined"
+                    className={style.third_input}
+                    placeholder="12345678123456"
+                  />
+                  <TextField
+                    id="outlined-basic"
+                    label="Expiration"
+                    variant="outlined"
+                    placeholder="12/19"
+                  />
+                  <TextField
+                    id="outlined-basic"
+                    label="CVV"
+                    variant="outlined"
+                    placeholder="CVV"
+                  />
+                </form>
 
-              <Stack direction="column" spacing={1}>
-                <Button variant="contained">Visa</Button>
-                <Button variant="contained">Humo</Button>
-                <Button variant="contained">UzCard</Button>
-                <Button variant="contained">MasterCard</Button>
-              </Stack>
-            </TabPanel>
-            <TabPanel value={value} index={1}>
-              <h3>Card Number: 0104930234423</h3>
-              <p className={style.text_card}>send cheque account below!</p>
-              <Button variant="contained" className={style.btn_1}>
-                Contact me
-              </Button>
-            </TabPanel>
-          </Box>
-        </div>
-      </main>
+                <Stack direction="column" spacing={1}>
+                  <Button variant="contained">Humo</Button>
+                  <Button variant="contained">UzCard</Button>
+                  <Button variant="contained">MasterCard</Button>
+                  <Button variant="contained">Visa</Button>
+                </Stack>
+              </TabPanel>
+              <TabPanel value={value} index={1}>
+                <h3>USD: 20208840005603800001 </h3>
+                <h3>Another Card: 20208000705603800001</h3>
+                <h3>EUR: 20208978305603800001 </h3>
+                <p className={style.text_card}>send cheque account below!</p>
+                <a target="_blank" href="https://wa.me/qr/YMS75A26V23ZG1">
+                  <Button variant="contained" className={style.btn_1}>
+                    Contact me
+                  </Button>
+                </a>
+              </TabPanel>
+            </Box>
+          </div>
+        </main>
+      </div>
       <Footer />
     </div>
   );
