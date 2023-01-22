@@ -173,12 +173,12 @@
       .faq8 {
         .faq8_img {
           display: flex;
-          flex-direction: column;
+          align-items: center;
         }
         img {
-          max-width: 500px;
-          display: flex;
-          align-self: flex-end;
+          max-width: 400px;
+          border-radius: 20px;
+          margin-right: 1rem;
         }
         .links {
           display: flex;
@@ -200,7 +200,7 @@
         div {
           display: flex;
           img {
-            max-width: 300px;
+            max-width: 500px;
             margin-left: 30px;
           }
         }

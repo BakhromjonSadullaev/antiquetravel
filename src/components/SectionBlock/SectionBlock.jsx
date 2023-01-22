@@ -38,7 +38,7 @@ import faq4_8 from "../../images/faq4_8.jpg";
 import faq5_1 from "../../images/faq5_1.jpg";
 import faq6_1 from "../../images/faq6_1.jpg";
 import faq7_2 from "../../images/faq7_2.png";
-import faq8_1 from "../../images/faq8_1.png";
+import visa from "../../images/visa.jpg";
 import faq9_1 from "../../images/faq9_1.webp";
 import faq10_1 from "../../images/faq10_1.png";
 import faq11_1 from "../../images/faq11_1.png";
@@ -50,7 +50,9 @@ import shopping from "../../images/shopping.jpg";
 import security from "../../images/security.jpg";
 import gigiyena from "../../images/gigiyena.jpg";
 import din from "../../images/din.jpg";
-
+import embassy from "../../files/embassy.pdf";
+import deklaraciya from "../../files/deklaraciya.pdf";
+import medicine from "../../files/medicine.pdf";
 export default function SimpleAccordion() {
   const { t } = useTranslation();
   return (
@@ -112,9 +114,6 @@ export default function SimpleAccordion() {
                   <Trans t={t}>faq1text11</Trans>
                 </li>
               </ul>
-              <a href="">
-                <Trans t={t}>faq1text12</Trans>
-              </a>
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -230,7 +229,10 @@ export default function SimpleAccordion() {
                 </h3>
                 <div className={style.carrier}>
                   <p>
-                    <a href="">
+                    <a
+                      target="_blank"
+                      href="https://www.uzairways.com/ru?utm_source=google&utm_medium=cpc&utm_term=&gclid=CjwKCAiA2rOeBhAsEiwA2Pl7Q0dLPI_SxfaSvGYZo4Lz91cyMK4Q5XoDPzkimj3gB1ByV8voGIaRIxoChHkQAvD_BwE"
+                    >
                       "<Trans t={t}>faq4text6</Trans>"
                     </a>{" "}
                     <Trans t={t}>faq4text7</Trans>
@@ -239,10 +241,16 @@ export default function SimpleAccordion() {
                 </div>
                 <div className={style.ticket}>
                   {" "}
-                  <a href="">
+                  <a
+                    target="_blank"
+                    href="https://book.uzairways.com/en/?806?806"
+                  >
                     <Trans t={t}>faq4text8</Trans>
                   </a>
-                  <a href="">
+                  <a
+                    target="_blank"
+                    href="https://www.uzairways.com/en/statform"
+                  >
                     <Trans t={t}>faq4text9</Trans>
                   </a>
                 </div>
@@ -267,10 +275,13 @@ export default function SimpleAccordion() {
                 </div>
                 <div className={style.ticket}>
                   {" "}
-                  <a href="">
+                  <a
+                    target="_blank"
+                    href="https://railway.uz/ru/interaktivnye_uslugi/spravochnye_telefony/"
+                  >
                     <Trans t={t}>faq4text14</Trans>
                   </a>
-                  <a href="">
+                  <a target="_blank" href="https://e-ticket.railway.uz/ru/home">
                     <Trans t={t}>faq4text15</Trans>
                   </a>
                 </div>
@@ -296,7 +307,7 @@ export default function SimpleAccordion() {
                   </p>
                   <img src={faq4_6} alt="" />
                 </div>
-                <a href="">
+                <a target="_blank" href="https://avtoticket.uz/">
                   <Trans t={t}>faq4text21</Trans>
                 </a>
                 <h3>
@@ -394,7 +405,7 @@ export default function SimpleAccordion() {
               <p>
                 <Trans t={t}>faq6text3</Trans>
               </p>
-              <a href="">
+              <a target="_blank" href={embassy}>
                 <Trans t={t}>faq6text4</Trans>
               </a>
             </Typography>
@@ -446,14 +457,21 @@ export default function SimpleAccordion() {
           <AccordionDetails className={style.answer}>
             <Typography className={style.faq8}>
               <div className={style.faq8_img}>
-                <img src={faq8_1} alt="" />
+                <img src={visa} alt="" />
                 <p>
                   <Trans t={t}>faq8text1</Trans>
+                  <span>
+                    <br />
+                    <a target="_blank" href="https://e-visa.gov.uz./main">
+                      <Trans t={t}>faq8text2</Trans>
+                    </a>
+                  </span>
                 </p>
               </div>
               <div className={style.links}>
-                <a href="">Visa-free regime</a>
-                <a href="">Apply for an E-Visa</a>
+                <a target="_blank" href="https://e-visa.gov.uz/main">
+                  Apply for an E-Visa
+                </a>
               </div>
             </Typography>
           </AccordionDetails>
@@ -495,9 +513,19 @@ export default function SimpleAccordion() {
           <AccordionDetails className={style.answer}>
             <Typography className={style.faq10}>
               <div>
-                <p>
-                  <Trans t={t}>faq10text2</Trans>
-                </p>
+                <div>
+                  <p>
+                    <Trans t={t}>faq10text2</Trans>
+                    <span>
+                      {" "}
+                      <a target="_blank" href={deklaraciya}>
+                        <Trans t={t}>faq10text2_1</Trans>
+                      </a>{" "}
+                    </span>
+
+                    <Trans t={t}>faq10text2_2</Trans>
+                  </p>
+                </div>
                 <img src={faq10_1} alt="" />
               </div>
               <h2>
@@ -544,6 +572,9 @@ export default function SimpleAccordion() {
                   <Trans t={t}>faq10text16</Trans>
                 </li>
                 <li>
+                  <a target="_blank" href={medicine}>
+                    <Trans t={t}>faq10text17_1</Trans>
+                  </a>
                   <Trans t={t}>faq10text17</Trans>
                 </li>
                 <li>
@@ -575,7 +606,7 @@ export default function SimpleAccordion() {
           >
             <Typography className={style.question}>
               <BiBook />
-              Border and passport control
+              <Trans t={t}>faq11text1</Trans>
             </Typography>
           </AccordionSummary>
           <AccordionDetails className={style.answer}>
@@ -660,7 +691,11 @@ export default function SimpleAccordion() {
                 <Trans t={t}>faq13text7</Trans>
               </h3>
               <p>
-                <Trans t={t}>faq13text8</Trans>
+                <Trans t={t}>faq13text8_1</Trans>
+                <a target="_blank" href="https://emehmon.uz/user/login">
+                  <Trans t={t}>faq13text8</Trans>
+                </a>
+                <Trans t={t}>faq13text8_2</Trans>
               </p>
             </Typography>
           </AccordionDetails>

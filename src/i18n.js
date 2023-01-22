@@ -117,14 +117,17 @@ i18next
           faq7text3: "Most popular keywords",
           faq7text4: "Before the trip",
           faq8text1:
-            "Do you want to get a visa to Uzbekistan? Now it's much easier. All you need is an Internet connection and a passport. You can apply for an electronic tourist visa to Uzbekistan through the web-site . And, if your country is listed among 86 visa-free nations, then just buy tickets, pack your bags and Welcome to Uzbekistan!",
+            "Do you want to get a visa to Uzbekistan? Now it's much easier. All you need is an Internet connection and a passport. And, if your country is listed among 86 visa-free nations, then just buy tickets, pack your bags and Welcome to Uzbekistan! You can apply for an electronic tourist visa to Uzbekistan through the web-site",
+          faq8text2: "e-visa.gov.uz",
           faq9text1: "Traveling with kids",
           faq9text2:
             "The most inspiring, but at the same time tedious option of travel is a family vacation with children. We give some useful life hacks for those who want to relax for the benefit of themselves and children, without getting tired of the constant hustle and bustle, to get the most positive emotions and impressions for the whole year.",
           faq9text3: "Entering the country",
           faq10text1: "Customs regulations",
-          faq10text2:
-            "Uzbekistan has approved a single form of customs Declaration (T-6). The sample of the declaration is available at all customs points and the airports of the Republic.",
+          faq10text2: " Uzbekistan has approved a single",
+          faq10text2_1: "form",
+          faq10text2_2:
+            "of customs Declaration (T-6). The sample of the declaration is available at all customs points and the airports of the Republic.",
           faq10text3: "What goods can be imported to Uzbekistan",
           faq10text4:
             "If you enter Uzbekistan through the international airports, you can import goods without duties up to 2000 US dollars, through the railway and the river checkpoints - up to 1000 US dollars, through roadway (pedestrian) checkpoints – up to 300 US dollars. In this case, you do not need to specify them in the Customs declaration and can go through the 'Green' corridor.",
@@ -149,8 +152,9 @@ i18next
             "- narcotic drugs, psychotropic substances and precursors without the permission of the Ministry of health of the Republic of Uzbekistan;",
           faq10text16:
             "- jewelry, made of precious metals and gemstones for commercial purposes without a license issued by the Ministry of Foreign Trade of the Republic of Uzbekistan (the limit of jewelry from precious metals and stones imported by physical entity and not subjected to customs duties, is 5 pieces with a total weight of no more than 30 grams);",
+          faq10text17_1: "medicines",
           faq10text17:
-            "- medicines and medical equipment without the permission of the Ministry of health of the Republic of Uzbekistan (Download the list);",
+            "-  and medical equipment without the permission of the Ministry of health of the Republic of Uzbekistan (Download the list);",
           faq10text18:
             "- radio-electronic equipment from high-frequency devices without the permission of the Ministry for Development of Information Technologies and Communications of the Republic of Uzbekistan;",
           faq10text19:
@@ -183,8 +187,11 @@ i18next
           faq13text6:
             "A single form of registration of foreign citizens through the “E-mehmon” system has been launched in Uzbekistan in 2018.",
           faq13text7: "Registration of independent tourists in hotels",
-          faq13text8:
-            "If you have already registered at the accommodation facility and have already paid the tourist fee, but do not live there, “E-mehmon” system has a special section for the independent tourists. You just need to fill in all the fields, specifying the number of days of your stay, the system will calculate the payment amount, which can be paid by cash or by card upon your arrival. Please note that the administration of any accommodation facility on the territory of Uzbekistan must independently register foreign citizens upon request.",
+          faq13text8_1:
+            "If you have already registered at the accommodation facility and have already paid the tourist fee, but do not live there,",
+          faq13text8: "“E-mehmon” ",
+          faq13text8_2:
+            "system has a special section for the independent tourists. You just need to fill in all the fields, specifying the number of days of your stay, the system will calculate the payment amount, which can be paid by cash or by card upon your arrival. Please note that the administration of any accommodation facility on the territory of Uzbekistan must independently register foreign citizens upon request.",
           faq13text9: "Modern accommodation facilities",
           faq14text1:
             "So, you have registered and now you have a choice where to stay. There is a huge number of different accommodation facilities in Uzbekistan: from the fashionable hotel chains and the modern hotels to the guest houses in the national style and Yurt camps. All you need for your stay at the hotels in Uzbekistan is a passport, a booking coupon (if available) and timely payment at the current exchange rate. All accommodation facilities have a check-in and check-out system.",
@@ -369,8 +376,10 @@ i18next
             "De meest inspirerende, maar tegelijkertijd vervelende manier van reizen is een familievakantie met kinderen. We geven enkele handige lifehacks voor degenen die willen ontspannen ten behoeve van zichzelf en kinderen, zonder moe te worden van de constante drukte, om de meest positieve emoties en indrukken voor het geheel te krijgen jaar.",
           faq9text3: "Het land binnenkomen",
           faq10text1: "Douaneregels",
-          faq10text2:
-            "Oezbekistan heeft één douaneaangifte goedgekeurd (T-6). Het voorbeeld van de aangifte is verkrijgbaar bij alle douane punten en de luchthavens van de Republiek.",
+          faq10text2: "Oezbekistan heeft een single goedgekeurd",
+          faq10text2_1: "formulier",
+          faq10text2_2:
+            "van douaneaangifte (T-6). Het voorbeeld van de aangifte is verkrijgbaar bij alle douanepunten en de luchthavens van de Republiek.",
           faq10text3:
             "Welke goederen kunnen worden geïmporteerd in Oezbekistan",
           faq10text4:
@@ -397,8 +406,9 @@ i18next
             "- verdovende middelen, psychotrope stoffen en precursoren zonder toestemming van het Ministerie van Volksgezondheid van de Republiek Oezbekistan;",
           faq10text16:
             "- sieraden, gemaakt van edele metalen en edelstenen voor commercieel gebruik doeleinden zonder vergunning van het Ministerie van Buitenlandse Zaken Handel van de Republiek Oezbekistan (de limiet van sieraden van edele metalen en stenen geïmporteerd door fysieke entiteit en niet onderworpen aan douanerechten, is 5 stuks met een totaal gewicht van niet meer dan 30 gram);",
+          faq10text17_1: "medicijnen",
           faq10text17:
-            "- medicijnen en medische apparatuur zonder toestemming van het Ministerie van Volksgezondheid van de Republiek Oezbekistan (Download de lijst);",
+            "-en medische apparatuur zonder toestemming van het Ministerie van Volksgezondheid van de Republiek Oezbekistan (Download de lijst);",
           faq10text18:
             "- radio-elektronische apparatuur van hoogfrequente apparaten zonder de toestemming van het Ministerie voor Ontwikkeling van Informatie Technologieën en communicatie van de Republiek Oezbekistan;",
           faq10text19:
@@ -431,8 +441,11 @@ i18next
           faq13text6:
             "Een enkele vorm van registratie van buitenlandse burgers via de Het E-mehmon -systeem is in 2018 in Oezbekistan gelanceerd.",
           faq13text7: "Registratie van onafhankelijke toeristen in hotels",
-          faq13text8:
-            "Als u zich al heeft geregistreerd bij de accommodatie en de toeristenbelasting al hebt betaald, maar er niet woont, heeft het E-mehmon-systeem een speciaal gedeelte voor de onafhankelijke toeristen. U hoeft alleen maar alle velden in te vullen en te specificeren het aantal dagen van uw verblijf, het systeem berekent het betalingsbedrag, dat bij aankomst contant of met een kaart kan worden betaald Houd er rekening mee dat de administratie van elke accommodatie op het grondgebied van Oezbekistan op verzoek onafhankelijke buitenlandse staatsburgers moet registreren .",
+          faq13text8_1:
+            "Als je je al hebt ingeschreven bij de accommodatie en de toeristenbelasting al hebt betaald, maar daar niet woont,",
+          faq13text8: "E-mehmon ",
+          faq13text8_2:
+            "systeem heeft een speciaal gedeelte voor de onafhankelijke toeristen. U hoeft alleen maar alle velden in te vullen en het aantal dagen van uw verblijf op te geven, het systeem berekent het betalingsbedrag, dat bij aankomst contant of met een kaart kan worden betaald. Houd er rekening mee dat de administratie van elke accommodatie op het grondgebied van Oezbekistan op verzoek onafhankelijke buitenlandse staatsburgers moet registreren.",
           faq13text9: "Moderne accommodatiefaciliteiten",
           faq14text1:
             "Dus je hebt je geregistreerd en nu heb je de keuze waar je wilt verblijven. Er is een enorm aantal verschillende accommodaties in Oezbekistan: van de modieuze hotelketens tot het moderne hotels tot de pensions in nationale stijl en Yurt-kampen. Alles wat u nodig heeft voor uw verblijf in de hotels in Oezbekistan is een paspoort, een boekingsbon (indien aanwezig) en tijdige betaling bij de huidige wisselkoers. Alle accommodaties hebben een check-in en check-out systeem.",
@@ -616,8 +629,10 @@ i18next
             "Самый вдохновляющий, но в то же время утомительный вариант путешествия это семейный отдых с детьми. Даем несколько полезных лайфхаков для тех, кто хочет отдохнуть с пользой для себя и дети, не уставая от постоянной суеты, получить максимум положительных эмоций и впечатлений на весь год.",
           faq9text3: "Въезд в страну",
           faq10text1: "Таможенные правила",
-          faq10text2:
-            "Узбекистан утвердил единую форму таможенной декларации (Т-6). Образец декларации есть на всех таможнях пунктов и аэропортов Республики.",
+          faq10text2: "Узбекистан утвердил единую",
+          faq10text2_1: "форма",
+          faq10text2_2:
+            "таможенной декларации (Т-6). Образец декларации доступна на всех таможенных постах и ​​в аэропортах Республика.",
           faq10text3: "Какие товары можно ввозить в Узбекистан",
           faq10text4:
             "«При въезде в Узбекистан через международные аэропорты можно ввозить без пошлины товаров на сумму до 2000 долларов США, через железнодорожный и речной пункты пропуска – до 1000 долларов США, через автомобильные (пешеходные) пункты пропуска – до 300 долларов США. в этом случае их не нужно указывать в таможенной декларации и можно пройти по «Зеленому» коридору.»",
@@ -641,8 +656,9 @@ i18next
             "- наркотических средств, психотропных веществ и прекурсоров без разрешение Министерства здравоохранения Республики Узбекистан;",
           faq10text16:
             "- ювелирные изделия из драгоценных металлов и драгоценных камней для коммерческого использования целях без лицензии, выданной Министерством иностранных дел Торговля Республики Узбекистан (лимит ювелирных изделий от драгоценные металлы и камни, ввозимые физическим лицом и не облагается таможенными пошлинами, составляет 5 мест общей массой не более 30 грамм);",
+          faq10text17_1: "- лекарственные ",
           faq10text17:
-            "- лекарственные средства и медицинская техника без разрешения Министерства здравоохранения Республики Узбекистан (Скачать список);",
+            "средства и медицинская техника без разрешения Министерства здравоохранения Республики Узбекистан (Скачать список);",
           faq10text18:
             "- радиоэлектронное оборудование из высокочастотных устройств без разрешение Министерства по развитию информации Технологии и коммуникации Республики Узбекистан;",
           faq10text19:
@@ -675,8 +691,11 @@ i18next
           faq13text6:
             "Единая форма регистрации иностранных граждан через В 2018 году в Узбекистане запущена система «Е-мехмон».",
           faq13text7: "Регистрация самостоятельных туристов в отелях",
-          faq13text8:
-            "«Если вы уже зарегистрированы в объекте размещения и уже оплатили туристический сбор, но не проживаете там, в системе «Е-мехмон» есть специальный раздел для самостоятельных туристов. Вам достаточно заполнить все поля, указав количество дней вашего пребывания, система рассчитает сумму платежа, которую можно оплатить наличными или картой по прибытии.Обратите внимание, что администрация любого средства размещения на территории Узбекистана должна самостоятельно регистрировать иностранных граждан по их требованию .",
+          faq13text8_1:
+            "Если вы уже зарегистрированы в объекте размещения и уже оплатили туристический сбор, но не проживаете там,",
+          faq13text8: "«Э-мехмон» ",
+          faq13text8_2:
+            "в системе есть специальный раздел для самостоятельных туристов. Вам достаточно заполнить все поля, указав количество дней проживания, система рассчитает сумму платежа, которую можно оплатить наличными или картой по прибытии. Обратите внимание, что администрация любого средства размещения на территории Узбекистана обязана самостоятельно регистрировать иностранных граждан по их требованию.",
           faq13text9: "Современные средства размещения",
           faq14text1:
             "Итак, вы зарегистрировались и теперь у вас есть выбор, где остановиться. Существует огромное количество различных средств размещения в г. Узбекистан: от фешенебельных гостиничных сетей до современных гостиницы до гостевых домов в национальном стиле и юртовых лагерей. Все, что вам нужно для проживания в отелях Узбекистана, это паспорт, купон бронирования (при наличии) и своевременная оплата на текущий обменный курс. Все средства размещения имеют система регистрации заезда и отъезда.",
