@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import CitiesGallery from "./Pages/CitiesGallery";
 import GreenGallery from "./Pages/GreenGallery";
 import Main from "./Pages/Main";
@@ -15,6 +15,8 @@ import TourismGallery from "./Pages/TourismGallery";
 import Payment from "./Pages/Payment/Payment";
 import AboutUs from "./components/AboutUs/AboutUs";
 import Tours from "./components/Tours/Tours";
+import { useLayoutEffect } from "react";
+
 function App() {
   return (
     <Routes>
@@ -35,7 +37,9 @@ function App() {
       <Route path="/Photo_Gallery/metro_gallery" element={<MetroGallery />} />
       <Route path="/Photo_Gallery/art_gallery" element={<ArtGallery />} />
       <Route path="/Photo_Gallery/sport_gallery" element={<SportGallery />} />
+
       <Route path="/payment" element={<Payment />} />
+
       <Route
         path="/Photo_Gallery/historical_gallery"
         element={<HistoricalGallery />}

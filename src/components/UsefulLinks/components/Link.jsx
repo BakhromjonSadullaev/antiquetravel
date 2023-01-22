@@ -2,7 +2,7 @@ import React from "react";
 import style from "./Link.module.scss";
 import { Link } from "react-router-dom";
 const Linker = ({ icon, title, link }) => {
-  return link === "payment" ? (
+  return link === "/payment" ? (
     <Link to={link} className={style.body}>
       <div className={style.container}>
         {icon}

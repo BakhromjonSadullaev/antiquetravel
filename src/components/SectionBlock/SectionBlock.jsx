@@ -24,6 +24,32 @@ import { FaKey } from "react-icons/fa";
 import { MdCleanHands } from "react-icons/md";
 import { MdRule } from "react-icons/md";
 import { useTranslation, Trans } from "react-i18next";
+import transport2 from "../../images/transport2.jpg";
+import faq1_1 from "../../images/faq1_1.jpg";
+import faq2_1 from "../../images/faq2_1.jpg";
+import faq3_1 from "../../images/faq3_1.png";
+import faq4_1 from "../../images/faq4_1.jpg";
+import faq4_3 from "../../images/faq4_3.jpg";
+import faq4_4 from "../../images/faq4_4.jpg";
+import faq4_5 from "../../images/faq4_5.jpg";
+import faq4_6 from "../../images/faq4_6.png";
+import faq4_7 from "../../images/faq4_7.jpg";
+import faq4_8 from "../../images/faq4_8.jpg";
+import faq5_1 from "../../images/faq5_1.jpg";
+import faq6_1 from "../../images/faq6_1.jpg";
+import faq7_2 from "../../images/faq7_2.png";
+import faq8_1 from "../../images/faq8_1.png";
+import faq9_1 from "../../images/faq9_1.webp";
+import faq10_1 from "../../images/faq10_1.png";
+import faq11_1 from "../../images/faq11_1.png";
+import faq12_1 from "../../images/faq12_1.jpg";
+import registeration from "../../images/registeration.jpg";
+import hilton from "../../images/hilton.jpg";
+import food from "../../images/food.jpg";
+import shopping from "../../images/shopping.jpg";
+import security from "../../images/security.jpg";
+import gigiyena from "../../images/gigiyena.jpg";
+import din from "../../images/din.jpg";
 
 export default function SimpleAccordion() {
   const { t } = useTranslation();
@@ -49,10 +75,7 @@ export default function SimpleAccordion() {
           <AccordionDetails className={style.answer}>
             <Typography>
               <div className={style.faq1}>
-                <img
-                  src="https://uzbekistan.travel/storage/app/media/nargiza/cropped-images/3%20poster-0-0-0-0-1606727695.jpg"
-                  alt=""
-                />
+                <img src={faq1_1} alt="" />
                 <p>
                   <Trans t={t}>faq1text1</Trans>{" "}
                 </p>
@@ -142,10 +165,7 @@ export default function SimpleAccordion() {
                     <bold>sIyd-al-Adha</bold> (religious holiday) - date varies
                   </p>
                 </div>
-                <img
-                  src="https://uzbekistan.travel/storage/app/media/uploaded-files/01.jpg"
-                  alt=""
-                />
+                <img src={faq2_1} alt="" />
               </div>
             </Typography>
           </AccordionDetails>
@@ -165,10 +185,7 @@ export default function SimpleAccordion() {
           <AccordionDetails className={style.answer}>
             <Typography>
               <div className={style.faq3}>
-                <img
-                  src="https://uzbekistan.travel/storage/app/media/uploaded-files/worktime.png"
-                  alt=""
-                />
+                <img src={faq3_1} alt="" />
                 <p>
                   <Trans t={t}>faq3text2</Trans>
                 </p>
@@ -203,10 +220,7 @@ export default function SimpleAccordion() {
                   <Trans t={t}>faq4text4</Trans>
                 </h3>
                 <div className={style.plane}>
-                  <img
-                    src="https://uzbekistan.travel/storage/app/media/nargizav/samolyot.jpg"
-                    alt=""
-                  />
+                  <img src={faq4_1} alt="" />
                   <p>
                     <Trans t={t}>faq4text3</Trans>
                   </p>
@@ -221,10 +235,7 @@ export default function SimpleAccordion() {
                     </a>{" "}
                     <Trans t={t}>faq4text7</Trans>
                   </p>
-                  <img
-                    src="https://uzbekistan.travel/storage/app/media/nargizav/forma.jpg"
-                    alt=""
-                  />
+                  <img src={transport2} alt="" />
                 </div>
                 <div className={style.ticket}>
                   {" "}
@@ -240,10 +251,7 @@ export default function SimpleAccordion() {
                   <Trans t={t}>faq4text10</Trans>
                 </h3>
                 <div className={style.airlines}>
-                  <img
-                    src="https://uzbekistan.travel/storage/app/media/nargiza/cropped-images/3%20poster-0-0-0-0-1606727695.jpg"
-                    alt=""
-                  />
+                  <img src={faq4_3} alt="" />
                   <p>
                     <Trans t={t}>faq4text11</Trans>
                   </p>
@@ -255,10 +263,7 @@ export default function SimpleAccordion() {
                   <p>
                     <Trans t={t}>faq4text13</Trans>
                   </p>
-                  <img
-                    src="https://uzbekistan.travel/storage/app/media/nargizav/photo_2020-02-24_11-24-25.jpg"
-                    alt=""
-                  />
+                  <img src={faq4_4} alt="" />
                 </div>
                 <div className={style.ticket}>
                   {" "}
@@ -273,10 +278,7 @@ export default function SimpleAccordion() {
                   <Trans t={t}>faq4text16</Trans>
                 </h3>
                 <div className={style.metro}>
-                  <img
-                    src="https://uzbekistan.travel/storage/app/media/uploaded-files/m16.jpg"
-                    alt=""
-                  />
+                  <img src={faq4_5} alt="" />
                   <p>
                     {" "}
                     <Trans t={t}>faq4text17</Trans>
@@ -292,10 +294,7 @@ export default function SimpleAccordion() {
                   <p>
                     <Trans t={t}>faq4text20</Trans>
                   </p>
-                  <img
-                    src="https://uzbekistan.travel/storage/app/media/nargizav/avtobus.png"
-                    alt=""
-                  />
+                  <img src={faq4_6} alt="" />
                 </div>
                 <a href="">
                   <Trans t={t}>faq4text21</Trans>
@@ -304,10 +303,7 @@ export default function SimpleAccordion() {
                   <Trans t={t}>faq4text22</Trans>
                 </h3>
                 <div className={style.bus}>
-                  <img
-                    src="https://uzbekistan.travel/storage/app/media/nargizav/gorodavto.jpg"
-                    alt=""
-                  />
+                  <img src={faq4_7} alt="" />
                   <p>
                     <Trans t={t}>faq4text23</Trans>
                   </p>
@@ -333,10 +329,7 @@ export default function SimpleAccordion() {
                       <Trans t={t}>faq4text28</Trans>
                     </p>
                   </div>
-                  <img
-                    src="https://uzbekistan.travel/storage/app/media/uploaded-files/01.jpg"
-                    alt=""
-                  />
+                  <img src={faq4_8} alt="" />
                 </div>
               </div>
             </Typography>
@@ -376,10 +369,7 @@ export default function SimpleAccordion() {
                     <Trans t={t}>faq5text7</Trans> – 109
                   </p>
                 </div>
-                <img
-                  src="https://uzbekistan.travel/storage/app/media/cropped-images/unnamed-1-0-0-0-0-1589201001.png"
-                  alt=""
-                />
+                <img src={faq5_1} alt="" />
               </div>
             </Typography>
           </AccordionDetails>
@@ -397,10 +387,7 @@ export default function SimpleAccordion() {
           </AccordionSummary>
           <AccordionDetails className={style.answer}>
             <Typography className={style.faq6}>
-              <img
-                src="https://uzbekistan.travel/storage/app/media/nargizav/konsulskiy-otdel-posolstva-uzbekistana.jpg"
-                alt=""
-              />
+              <img src={faq6_1} alt="" />
               <p>
                 <Trans t={t}>faq6text2</Trans>
               </p>
@@ -439,10 +426,7 @@ export default function SimpleAccordion() {
                 <p>Salomat buling! - Be healthy!</p>
                 <p>Rahmat! - Thank you!</p>
               </div>
-              <img
-                src="https://uzbekistan.travel/storage/app/media/cropped-images/unnamed-1-0-0-0-0-1589201001.png"
-                alt=""
-              />
+              <img src={faq7_2} alt="" />
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -462,10 +446,7 @@ export default function SimpleAccordion() {
           <AccordionDetails className={style.answer}>
             <Typography className={style.faq8}>
               <div className={style.faq8_img}>
-                <img
-                  src="https://uzbekistan.travel/storage/app/media/uploaded-files/13.jpg"
-                  alt=""
-                />
+                <img src={faq8_1} alt="" />
                 <p>
                   <Trans t={t}>faq8text1</Trans>
                 </p>
@@ -490,10 +471,7 @@ export default function SimpleAccordion() {
           </AccordionSummary>
           <AccordionDetails className={style.answer}>
             <Typography className={style.faq9}>
-              <img
-                src="https://uzbekistan.travel/storage/app/media/uploaded-files/13.jpg"
-                alt=""
-              />
+              <img src={faq9_1} alt="" />
               <p>
                 <Trans t={t}>faq9text2</Trans>
               </p>
@@ -520,10 +498,7 @@ export default function SimpleAccordion() {
                 <p>
                   <Trans t={t}>faq10text2</Trans>
                 </p>
-                <img
-                  src="https://uzbekistan.travel/storage/app/media/uploaded-files/21.jpg"
-                  alt=""
-                />
+                <img src={faq10_1} alt="" />
               </div>
               <h2>
                 <Trans t={t}>faq10text3</Trans>
@@ -605,10 +580,7 @@ export default function SimpleAccordion() {
           </AccordionSummary>
           <AccordionDetails className={style.answer}>
             <Typography className={style.faq11}>
-              <img
-                src="https://uzbekistan.travel/storage/app/media/oct.jpg"
-                alt=""
-              />
+              <img src={faq11_1} alt="" />
               <div>
                 <h3>
                   <Trans t={t}>faq11text1</Trans>
@@ -644,10 +616,7 @@ export default function SimpleAccordion() {
                   <Trans t={t}>faq12text4</Trans>
                 </p>
               </div>
-              <img
-                src="https://uzbekistan.travel/storage/app/media/animals.jpg"
-                alt=""
-              />
+              <img src={faq12_1} alt="" />
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -682,10 +651,7 @@ export default function SimpleAccordion() {
                     <Trans t={t}>faq13text5</Trans>
                   </p>
                 </div>
-                <img
-                  src="https://uzbekistan.travel/storage/app/media/uploaded-files/30.jpg"
-                  alt=""
-                />
+                <img src={registeration} alt="" />
               </div>
               <p>
                 <Trans t={t}>faq13text6</Trans>
@@ -713,10 +679,7 @@ export default function SimpleAccordion() {
           <AccordionDetails className={style.answer}>
             <Typography className={style.faq14}>
               <div className={style.flat}>
-                <img
-                  src="https://uzbekistan.travel/storage/app/media/nargizav/hilton_vid2.jpg"
-                  alt=""
-                />
+                <img src={hilton} alt="" />
                 <p>
                   <Trans t={t}>faq14text1</Trans>
                 </p>
@@ -756,10 +719,7 @@ export default function SimpleAccordion() {
           <AccordionDetails className={style.answer}>
             <Typography className={style.faq15}>
               <div className={style.food}>
-                <img
-                  src="https://uzbekistan.travel/storage/app/media/uploaded-files/34.jpg"
-                  alt=""
-                />
+                <img src={food} alt="" />
                 <div>
                   <h4>
                     <Trans t={t}>faq15text2</Trans>
@@ -815,10 +775,7 @@ export default function SimpleAccordion() {
               <p>
                 <Trans t={t}>faq16text2</Trans>
               </p>
-              <img
-                src="https://uzbekistan.travel/storage/app/media/uploaded-files/35.jpg"
-                alt=""
-              />
+              <img src={shopping} alt="" />
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -835,10 +792,7 @@ export default function SimpleAccordion() {
           </AccordionSummary>
           <AccordionDetails className={style.answer}>
             <Typography className={style.faq17}>
-              <img
-                src="https://uzbekistan.travel/storage/app/media/uploaded-files/36.jpg"
-                alt=""
-              />
+              <img src={security} alt="" />
               <p>
                 <Trans t={t}>faq17text2</Trans>
               </p>
@@ -858,10 +812,7 @@ export default function SimpleAccordion() {
           </AccordionSummary>
           <AccordionDetails className={style.answer}>
             <Typography className={style.faq18}>
-              <img
-                src="https://uzbekistan.travel/storage/app/media/uploaded-files/37.jpg"
-                alt=""
-              />
+              <img src={gigiyena} alt="" />
               <div>
                 <p>
                   <Trans t={t}>faq18text2</Trans>
@@ -890,10 +841,7 @@ export default function SimpleAccordion() {
           </AccordionSummary>
           <AccordionDetails className={style.answer}>
             <Typography className={style.faq19}>
-              <img
-                src="https://uzbekistan.travel/storage/app/media/uploaded-files/38.jpg"
-                alt=""
-              />
+              <img src={din} alt="" />
               <p>
                 <Trans t={t}>faq19text2</Trans>
               </p>
