@@ -53,6 +53,8 @@ import din from "../../images/din.jpg";
 import embassy from "../../files/embassy.pdf";
 import deklaraciya from "../../files/deklaraciya.pdf";
 import medicine from "../../files/medicine.pdf";
+import { HiInformationCircle } from "react-icons/hi";
+import Globus from "../../images/globus.jpg";
 export default function SimpleAccordion() {
   const { t } = useTranslation();
   return (
@@ -61,6 +63,87 @@ export default function SimpleAccordion() {
         <h1>
           <Trans t={t}>usefulInformation</Trans>
         </h1>
+        <Accordion className={style.accordion}>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel1a-content"
+            id="panel1a-header"
+          >
+            <Typography className={style.question}>
+              <HiInformationCircle /> General information
+            </Typography>
+          </AccordionSummary>
+          <AccordionDetails className={style.answer}>
+            <Typography>
+              <div className={style.general}>
+                <div className={style.info_general}>
+                  <p>
+                    <span>Geographical and space location:</span>
+                    The Planet Earth, Eurasian continent, Central Asia
+                  </p>
+                  <p>
+                    <span>Area:</span>
+                    447.4 thousand square km.
+                  </p>
+                  <p>
+                    <span>Population:</span>
+                    34 million
+                  </p>
+                  <p>
+                    <span>Nations:</span>
+                    more than 134 nations live in the country, but the majority
+                    of the population is Uzbek (83.8%)
+                  </p>
+                  <p>
+                    <span>Regions:</span>
+                    12 regions + Republic of Karakalpakstan
+                  </p>
+                  <p>
+                    <span>Famous cities:</span>
+                    Tashkent, Samarkand, Bukhara, Khiva, Shakhrisabz, Termez,
+                    Kokand, Ferghana, Muynak.
+                  </p>
+                  <p>
+                    <span>Capital:</span>
+                    Tashkent
+                  </p>
+                  <p>
+                    <span>Language:</span>
+                    the official language is Uzbek, and Russian and English are
+                    the languages of international communication.
+                  </p>
+                  <p>
+                    <span>Religion:</span>
+                    Uzbekistan is a secular country, most of the population
+                    professes Islam. The country is also home to representatives
+                    of Christianity, Buddhism and other religions.
+                  </p>
+                  <p>
+                    <span>Time zone:</span>
+                    UTC +5
+                  </p>
+                  <p>
+                    <span>Internet zone:</span>
+                    .uz
+                  </p>
+                  <p>
+                    <span>International phone code: </span>
+                    +998
+                  </p>
+                  <p>
+                    <span>Monetary unit:</span>
+                    sum
+                  </p>
+                  <p>
+                    <span>Climate:</span>
+                    mild winters, hot summers
+                  </p>
+                </div>
+                <img src={Globus} alt="" />
+              </div>
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
         <Accordion className={style.accordion}>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
