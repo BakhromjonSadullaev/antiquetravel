@@ -3,32 +3,26 @@ import Footer from "../components/Footer/Footer";
 import GalleryViewer from "../components/GalleryViewer/GalleryViewer";
 import Header from "../components/Header/Header";
 import Nav1 from "../components/Nav1/Nav1";
+import metro1 from "../images/metro1.jpg";
+import metro2 from "../images/metro2.jpg";
+import metro3 from "../images/metro3.jpg";
+import metro4 from "../images/metro4.jpg";
+import metro5 from "../images/metro5.jpg";
+import metro6 from "../images/metro6.jpg";
+import metro7 from "../images/metro7.jpg";
+import metro8 from "../images/metro8.jpg";
+import metro9 from "../images/metro9.jpg";
 const MetroGallery = () => {
   const photos = [
-    {
-      src: "https://uzbekistan.travel/storage/app/uploads/public/5e6/b33/d1b/thumb_431_600_0_0_0_auto.jpg",
-    },
-    {
-      src: "https://uzbekistan.travel/storage/app/uploads/public/5e6/b33/f8a/thumb_432_600_0_0_0_auto.jpg",
-    },
-    {
-      src: "https://uzbekistan.travel/storage/app/uploads/public/5e6/b34/40e/thumb_435_600_0_0_0_auto.jpg",
-    },
-    {
-      src: "https://uzbekistan.travel/storage/app/uploads/public/5e6/b34/56c/thumb_436_600_0_0_0_auto.jpg",
-    },
-    {
-      src: "https://uzbekistan.travel/storage/app/uploads/public/5e6/b34/21a/thumb_434_600_0_0_0_auto.jpg",
-    },
-    {
-      src: "https://uzbekistan.travel/storage/app/uploads/public/5e6/b34/7b7/thumb_438_600_0_0_0_auto.jpg",
-    },
-    {
-      src: "https://uzbekistan.travel/storage/app/uploads/public/5e6/b34/8d9/thumb_439_600_0_0_0_auto.jpg",
-    },
-    {
-      src: "https://uzbekistan.travel/storage/app/uploads/public/5e6/b34/a1a/thumb_440_600_0_0_0_auto.jpg",
-    },
+    { src: metro1 },
+    { src: metro2 },
+    { src: metro3 },
+    { src: metro4 },
+    { src: metro5 },
+    { src: metro6 },
+    { src: metro7 },
+    { src: metro8 },
+    { src: metro9 },
   ];
   return (
     <div>
