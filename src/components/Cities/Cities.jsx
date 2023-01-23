@@ -3,7 +3,12 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import style from "./Cities.module.scss";
 import { useTranslation, Trans } from "react-i18next";
-
+import bukhara from "../../images/bukhara.jpg";
+import fergana from "../../images/fergana.jpg";
+import khiva from "../../images/khiva.jpg";
+import samarkand from "../../images/samarkand.jpg";
+import shakhrisabz from "../../images/shakhrisabz.jpg";
+import tashkent from "../../images/tashkant.jpg";
 const Cities = () => {
   const { t } = useTranslation();
 
@@ -23,7 +28,7 @@ const Cities = () => {
         stopOnHover={true}
       >
         <div className={style.cityCarousel}>
-          <img src="https://atp.com.pk/wp-content/uploads/2020/01/tashkant.jpg" />
+          <img src={tashkent} />
           <div className={style.info}>
             <h1>Tashkent</h1>
             <p>
@@ -32,7 +37,7 @@ const Cities = () => {
           </div>
         </div>
         <div className={style.cityCarousel}>
-          <img src="https://i.pinimg.com/originals/4a/d3/6f/4ad36f8b32177d3acf00319e7b5c6f10.jpg" />
+          <img src={samarkand} />
           <div className={style.info}>
             <h1>Samarkand</h1>
             <p>
@@ -41,7 +46,7 @@ const Cities = () => {
           </div>
         </div>
         <div className={style.cityCarousel}>
-          <img src="https://img.tourister.ru/files/2/5/0/0/2/3/6/0/original.jpg" />
+          <img src={bukhara} />
           <div className={style.info}>
             <h1>Bukhara</h1>
             <p>
@@ -50,7 +55,7 @@ const Cities = () => {
           </div>
         </div>
         <div className={style.cityCarousel}>
-          <img src="https://countrysideindia.com/wp-content/uploads/2019/10/Itchan-Kala-Khiva-Uzbekistan._526336663.jpg" />
+          <img src={khiva} />
           <div className={style.info}>
             <h1>Khiva</h1>
             <p>
@@ -59,7 +64,7 @@ const Cities = () => {
           </div>
         </div>
         <div className={style.cityCarousel}>
-          <img src="https://www.adictosaljetlag.com/wp-content/uploads/2016/08/MadrassaNarboutabek.jpg" />
+          <img src={fergana} />
           <div className={style.info}>
             <h1>Ferghana</h1>
             <p>
@@ -68,7 +73,7 @@ const Cities = () => {
           </div>
         </div>
         <div className={style.cityCarousel}>
-          <img src="https://a.d-cd.net/3216679s-1920.jpg" />
+          <img src={shakhrisabz} />
           <div className={style.info}>
             <h1>Shakhrisabz</h1>
             <p>

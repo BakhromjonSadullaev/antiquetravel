@@ -35,7 +35,7 @@ const Header = () => {
               <span>
                 <EmailIcon />{" "}
               </span>{" "}
-              info@antiquetravel.com
+              info@antique-travel.com
             </p>
             <div className={style.socialLinks}>
               <a target="_blank" href="https://t.me/bekzodrj">

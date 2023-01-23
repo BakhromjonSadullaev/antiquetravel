@@ -381,10 +381,7 @@ const Tours = () => {
                     Folklore show in Madrassah of Nodir Devan Begi in Bukhara;
                   </li>
                   <li>Full Board Meals (Breakfast, Lunch and Dinner);</li>
-                  <li>
-                    1 Danish Tour Leader is free of charge according to tour
-                    itinerary;
-                  </li>
+
                   <li>
                     Visit Bek’s House in Vabkent village near to Bukhara to see
                     and learn Uzbek local people traditions, ceremonies, habits
@@ -1554,10 +1551,7 @@ const Tours = () => {
                   </li>
                   <li>Visit Silk Paper Factory “Meros” in Samarkand;</li>
                   <li>Visit Russian Orthodox Church in Samarkand;</li>
-                  <li>
-                    1 Danish Tour Leader is free of charge according to tour
-                    itinerary;
-                  </li>
+
                   <li>Mineral water per person per a day.</li>
                 </ul>
                 <h2 className={style.red}>

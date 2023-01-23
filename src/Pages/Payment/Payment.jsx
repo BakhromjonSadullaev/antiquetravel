@@ -88,9 +88,15 @@ const Payment = () => {
                 </Stack>
               </TabPanel>
               <TabPanel value={value} index={1}>
-                <h3>USD: 20208840005603800001 </h3>
-                <h3>Another Card: 20208000705603800001</h3>
-                <h3>EUR: 20208978305603800001 </h3>
+                <div>
+                  <p>"ANTIQUE TRAVEL EXPERTS" OK</p>
+                  <p>Buxoro shahar, Q.Murtazoyev ko'chasi, 9/1-uy, 6x,</p>
+                  <p>TIF "MILLIY BANK" Buxoro viloyat filiali</p>
+                  <p>MFO 00084 STIR 310149060</p>
+                </div>
+                <h4>UzSum: 2020800070560380001</h4>
+                <h4>USD: 20208840005603800001</h4>
+                <h4>EUR: 20208978305603800001 </h4>
                 <p className={style.text_card}>send cheque account below!</p>
                 <a target="_blank" href="https://wa.me/qr/YMS75A26V23ZG1">
                   <Button variant="contained" className={style.btn_1}>

@@ -87,7 +87,7 @@ const Photos = () => {
   const { t, i18n } = useTranslation();
 
   return (
-    <div>
+    <div className={style.body}>
       <section className={style.wrapper}>
         <div className={style.image_slider}>
           <Link to={"/Photo_Gallery/cities_gallery"}>
