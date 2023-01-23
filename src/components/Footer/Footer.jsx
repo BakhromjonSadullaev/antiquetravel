@@ -21,7 +21,7 @@ const Footer = () => {
           </li>
           <li>
             <RxEnvelopeClosed />
-            info@antiquetravel.com
+            info@antique-travel.com
           </li>
           <li>
             <GoLocation /> Bukhara city , Q.Murtazoyev str 9/1, №6

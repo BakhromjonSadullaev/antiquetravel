@@ -709,10 +709,6 @@ const Tours = () => {
                     Cooking Class with National Cuisine of “Palov” in Samarkand;
                   </li>
                   <li>
-                    1 Danish Tour Leader is free of charge according to tour
-                    itinerary;
-                  </li>
-                  <li>
                     Tashkent-Bukhara economy class flight tickets by Uzbekistan
                     Airways;
                   </li>
