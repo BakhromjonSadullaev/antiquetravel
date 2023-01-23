@@ -4,7 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import style from "./Cities.module.scss";
 import { useTranslation, Trans } from "react-i18next";
 import bukhara from "../../images/bukhara.jpg";
-import fergana from "../../images/fergana.jpg";
+import fergana1 from "../../images/fergana1.jpg";
 import khiva from "../../images/khiva.jpg";
 import samarkand from "../../images/samarkand.jpg";
 import shakhrisabz from "../../images/shakhrisabz.jpg";
@@ -64,7 +64,7 @@ const Cities = () => {
           </div>
         </div>
         <div className={style.cityCarousel}>
-          <img src={fergana} />
+          <img src={fergana1} />
           <div className={style.info}>
             <h1>Ferghana</h1>
             <p>

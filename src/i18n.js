@@ -540,7 +540,7 @@ i18next
         translation: {
           Home: "Главная",
           AboutUs: "O нас",
-          Tours: "Экскурсии",
+          Tours: "Туры",
           Hotels: "Отели",
           Transportation: "Транспорт",
           Destination: "Место Hазначения",
