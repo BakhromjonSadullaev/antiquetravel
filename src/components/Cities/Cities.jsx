@@ -25,7 +25,7 @@ const Cities = () => {
         transitionTime={500}
         swipeScrollTolerance={6}
         animationHandler="fade"
-        stopOnHover={true}
+        stopOnHover={false}
       >
         <div className={style.cityCarousel}>
           <img src={tashkent} />
