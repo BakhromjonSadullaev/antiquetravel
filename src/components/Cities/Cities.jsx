@@ -16,16 +16,24 @@ const Cities = () => {
     <div className={style.body}>
       {" "}
       <Carousel
+        swipeable={false}
+        draggable={false}
+        showDots={true}
+        ssr={true} // means to render carousel on server-side.
+        infinite={true}
+        autoPlaySpeed={1000}
+        keyBoardControl={true}
+        customTransition="all .5"
+        transitionDuration={500}
+        containerClass="carousel-container"
+        removeArrowOnDeviceType={["tablet", "mobile"]}
+        dotListClass="custom-dot-list-style"
+        itemClass="carousel-item-padding-40-px"
         showThumbs={false}
-        showStatus={false}
-        showArrows={true}
         infiniteLoop
+        showStatus={false}
+        showArrows={false}
         autoPlay={true}
-        interval={10000}
-        transitionTime={500}
-        swipeScrollTolerance={6}
-        animationHandler="fade"
-        stopOnHover={false}
       >
         <div className={style.cityCarousel}>
           <img src={tashkent} />
