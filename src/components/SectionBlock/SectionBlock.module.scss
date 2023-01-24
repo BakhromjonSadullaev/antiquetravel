@@ -395,6 +395,10 @@
       }
       .flat {
         flex-direction: column;
+        img {
+          width: 100%;
+          margin: auto;
+        }
       }
       .food {
         flex-direction: column;
@@ -411,7 +415,13 @@
       .faq17 > img {
         width: 100%;
       }
+      .faq18 > img {
+        width: 100%;
+      }
       .faq19 > img {
+        width: 100%;
+      }
+      .hilton {
         width: 100%;
       }
     }
