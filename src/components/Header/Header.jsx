@@ -16,7 +16,7 @@ const Header = () => {
     <div className={style.body}>
       <div className={style.headerOverlay}>
         <nav>
-          <img src={navLogo} alt="" />
+          <img loading="lazy" src={navLogo} alt="" />
           <div className={style.contactInfo}>
             <p>
               <span>
@@ -78,12 +78,18 @@ const Header = () => {
         dynamicHeight={100}
       >
         <div className={style.carousel}>
-          <img src="https://novotours.uz/wp-content/uploads/2017/03/Travel-Uzbekistan.jpg" />
+          <img
+            loading="lazy"
+            src="https://novotours.uz/wp-content/uploads/2017/03/Travel-Uzbekistan.jpg"
+          />
         </div>
         <div className={style.carousel}>
-          <img src="https://novotours.uz/wp-content/uploads/2017/03/tour-to-Uzbekistan.jpg" />
+          <img
+            loading="lazy"
+            src="https://novotours.uz/wp-content/uploads/2017/03/tour-to-Uzbekistan.jpg"
+          />
         </div>
-        <div className={style.carousel}>
+        <div loading="lazy" className={style.carousel}>
           <img src="https://novotours.uz/wp-content/uploads/2017/03/Aydarkul-Lake-yurt-camp.jpg" />
         </div>
       </Carousel>

@@ -22,7 +22,7 @@ const Photos = ({ data }) => {
                     return (
                       <>
                         <div className={style.slide}>
-                          <img src={el.src} alt="" />
+                          <img loading="lazy" src={el.src} alt="" />
                         </div>
                       </>
                     );
