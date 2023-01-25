@@ -14,7 +14,7 @@ const Tours = () => {
       <Header />
       <Nav1 />
       <div className={style.body}>
-        <h1>Tour packets</h1>
+        <h1>Tour packages</h1>
         <section className={style.wrapper}>
           <Accordion className={style.accordion}>
             <AccordionSummary

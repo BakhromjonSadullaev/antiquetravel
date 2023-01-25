@@ -1,6 +1,6 @@
 import React, { useLayoutEffect, useState } from "react";
 import style from "./Nav1.module.scss";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import MenuIcon from "@mui/icons-material/Menu";
 import clsx from "clsx";
 import { useTranslation } from "react-i18next";
@@ -8,6 +8,11 @@ import { useTranslation } from "react-i18next";
 const Nav1 = () => {
   const { t, i18n } = useTranslation();
   const [showNavMenu, setShowNavMenu] = useState(false);
+  const navigate = useNavigate();
+  async function handleNavigateTransport() {
+    await navigate("/");
+    await window.scrollTo(0, 3300);
+  }
 
   return (
     <div className={style.body}>
@@ -32,10 +37,11 @@ const Nav1 = () => {
             {" "}
             <li>{t("Hotels")}</li>
           </a>
-          <a href="#transportation_accordion">
-            {" "}
-            <li>{t("Transportation")}</li>
-          </a>
+
+          <li onClick={() => handleNavigateTransport()}>
+            {t("Transportation")}
+          </li>
+
           <Link to="/Photo_Gallery">
             {" "}
             <li>{t("PhotoGallery")}</li>

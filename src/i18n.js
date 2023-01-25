@@ -270,6 +270,7 @@ i18next
           sport: "Extreme and sports",
           mistery: "Mysteries of archeology",
           historic: "Objects of ziyorat tourism",
+          subsections: "Subsections",
         },
       },
       de: {
@@ -534,6 +535,7 @@ i18next
           sport: "Extreem en sportief",
           mistery: "Mysteries van de archeologie",
           historic: "Objecten van ziyorat-toerisme",
+          subsections: "Onderafdelingen",
         },
       },
       ru: {
@@ -794,6 +796,7 @@ i18next
           sport: "Экстрим и спорт",
           mistery: "Загадки археологии",
           historic: "Объекты зиёрат-туризма",
+          subsections: "Подразделы",
         },
       },
     },
